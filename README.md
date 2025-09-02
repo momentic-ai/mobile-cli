@@ -1,6 +1,6 @@
 # momentic-mobile
 
-![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/momentic-mobile)
+![](https://img.shields.io/badge/Node.js-20%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/momentic-mobile)
 
 [npm]: https://img.shields.io/npm/v/momentic-mobile.svg?style=flat-square
 
