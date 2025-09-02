@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.4
+
+### Patch Changes
+
+- 949f37b: Fix log line for executing step count
+
 ## 0.0.3
 
 ### Patch Changes
