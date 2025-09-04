@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.5
+
+### Patch Changes
+
+- 23c1b92: Add validation for channel name (all lowercase is enforced now)
+- b398d6f: Escape unicode characters in cache headers
+
 ## 0.0.4
 
 ### Patch Changes
