@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.0.7
+
+### Patch Changes
+
+- d817422: Opening an app no longer fails when a permission check appears.
+- e3518a7: Add JavaScript step support
+- 7e5e667: Change Momentic remote logger provider
+- d817422: Added the ability to auto grant all permissions to the APK under test.
+
 ## 0.0.6
 
 ### Patch Changes
