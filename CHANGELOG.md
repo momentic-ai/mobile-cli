@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.6
+
+### Patch Changes
+
+- 4f421d5: Add support for folders to the local app
+
 ## 0.0.5
 
 ### Patch Changes
