@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.10
+
+### Patch Changes
+
+- 185aabf: Add support for us-west1 region (automatic routing based on client IP). Fix cases where unhandled promise rejections would crash the desktop app.
+- 9f1159f: Filter out non-applicable test types from local apps
+
 ## 0.0.9
 
 ### Patch Changes
