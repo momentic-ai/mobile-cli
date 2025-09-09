@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.8
+
+### Patch Changes
+
+- 2844c51: Add support for using environments when running mobile tests.
+- 464c13d: automatically terminate editor sessions that have been idle for too long
+
 ## 0.0.7
 
 ### Patch Changes
