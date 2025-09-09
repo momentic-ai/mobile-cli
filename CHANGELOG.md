@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.9
+
+### Patch Changes
+
+- af31c5a: Fix unhandled JSON circular dependency error on execute events.
+
 ## 0.0.8
 
 ### Patch Changes
