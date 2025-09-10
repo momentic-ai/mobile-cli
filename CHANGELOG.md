@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.11
+
+### Patch Changes
+
+- 913e30d: Fix relative pathing for getting tests in the app
+
 ## 0.0.10
 
 ### Patch Changes
