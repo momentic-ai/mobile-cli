@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.12
+
+### Patch Changes
+
+- b861ea9: Fix asset uploading to emulator platform.
+
 ## 0.0.11
 
 ### Patch Changes
