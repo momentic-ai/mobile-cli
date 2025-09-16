@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.13
+
+### Patch Changes
+
+- 2787516: Added a configuration option for android emulator region
+- 2787516: Fixed a bug where the autoGrantPermissions setting was not being respected during test runs
+
 ## 0.0.12
 
 ### Patch Changes
