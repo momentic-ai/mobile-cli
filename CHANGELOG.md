@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.14
+
+### Patch Changes
+
+- 85f5aa6: Merge caches back into main when a branch is merged on github
+- d929b02: Fix bug causing caches to not be stored on main
+
 ## 0.0.13
 
 ### Patch Changes
