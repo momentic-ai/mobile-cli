@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.15
+
+### Patch Changes
+
+- e3ad980: Support merging caches back into main using the Gitlab API
+
 ## 0.0.14
 
 ### Patch Changes
