@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.16
+
+### Patch Changes
+
+- 0f5ba29: Do not fallback to cloud AI agent configurations if local ones are not provided.
+
 ## 0.0.15
 
 ### Patch Changes
