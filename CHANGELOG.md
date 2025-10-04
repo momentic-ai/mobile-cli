@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.17
+
+### Patch Changes
+
+- 7aa0d79: Respect quarantined tests
+
 ## 0.0.16
 
 ### Patch Changes
