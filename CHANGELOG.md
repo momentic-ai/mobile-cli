@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.18
+
+### Patch Changes
+
+- 7ca8d7f: Fix nav item styling
+- 28b3921: Attempt to send logs on node crashes
+
 ## 0.0.17
 
 ### Patch Changes
