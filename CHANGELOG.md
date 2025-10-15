@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.0.19
+
+### Patch Changes
+
+- 72292d2: Add timeouts for all mobile driver commands
+- 72292d2: Add backend support for modules
+- 72292d2: Add keyboard press step type for pressing special keyboard keys
+- e5e7a9f: Show navigation breadcrumbs in the test editor
+- 72292d2: Add backend options for long press, key press delay, and clearing content
+
 ## 0.0.18
 
 ### Patch Changes
