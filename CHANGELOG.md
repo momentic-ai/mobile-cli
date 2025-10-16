@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.20
+
+### Patch Changes
+
+- c5a2196: fixed a bug that was preventing caches from being saved
+
 ## 0.0.19
 
 ### Patch Changes
