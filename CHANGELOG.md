@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.0.21
+
+### Patch Changes
+
+- ed694bd: Add support for WAIT and API REQUEST steps on the backend
+- 66510e7: Loosen threshold for screenshot comparisons when waiting for stability
+- 66510e7: Add ability to specify relative coordinates when tapping a target
+- 66510e7: Introduce "useMomenticAccessibilityTree" option in tests and at the org-level to always prefer using the momentic accessibility tree implementation for webviews, which captures far more elements
+
 ## 0.0.20
 
 ### Patch Changes
