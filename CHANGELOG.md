@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.0.22
+
+### Patch Changes
+
+- ed3b654: Flip useMomenticAccessibilityTree to disableMomenticAccessibilityTree so that the Momentic implementation is enabled by default
+- 51ccafc: Add double tap option to tap step
+- ed3b654: Fix bug where screenshots would not be captured for the final failing step(if there is one).
+- ed3b654: Add support for swiping up/down/left/right and various options
+
 ## 0.0.21
 
 ### Patch Changes
