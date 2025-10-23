@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.23
+
+### Patch Changes
+
+- 8045d6a: Show md5 hash and correct updated time in the assets table
+- 92777c9: Add file step to create files on the virtual device
+
 ## 0.0.22
 
 ### Patch Changes
