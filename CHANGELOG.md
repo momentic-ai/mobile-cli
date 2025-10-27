@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.0.24
+
+### Patch Changes
+
+- dbe2ac7: Show logcat logs in the editor
+- c51013a: Collect logcat logs from test runs
+- 17d40ee: Add additional confirmation if the user initializes a Momentic configuration outside of a Git repo
+
 ## 0.0.23
 
 ### Patch Changes
