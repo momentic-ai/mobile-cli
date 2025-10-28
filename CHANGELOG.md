@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.25
+
+### Patch Changes
+
+- df91827: Add filtering for logcat logs
+- 7654bbb: Add options for TAP (double tap, long press, relative position), TYPE (clear content), JAVASCRIPT (timeout), and AI CHECK (timeout) to the mobile editor UI
+
 ## 0.0.24
 
 ### Patch Changes
