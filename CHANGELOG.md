@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.26
+
+### Patch Changes
+
+- 59e74f6: Add better validation for the tap step inputs
+
 ## 0.0.25
 
 ### Patch Changes
