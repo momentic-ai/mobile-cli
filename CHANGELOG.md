@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.0.27
+
+### Patch Changes
+
+- 3b72364: Disable service workers by default to reduce flakiness when intercepting requests and to combat an instance where Playwright can hang indefinitely on sites using service workers: https://github.com/microsoft/playwright/issues/37347.
+- 71c4ec4: Visual improvements to the logcat viewer in the editor
+
 ## 0.0.26
 
 ### Patch Changes
