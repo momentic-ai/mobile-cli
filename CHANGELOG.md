@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.28
+
+### Patch Changes
+
+- 3fc6548: Fix clear content for typing in webviews
+
 ## 0.0.27
 
 ### Patch Changes
