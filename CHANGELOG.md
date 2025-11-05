@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.29
+
+### Patch Changes
+
+- 712bf7d: Add Accessibility tab to editor view to view and download the current accessibility xml tree
+
 ## 0.0.28
 
 ### Patch Changes
