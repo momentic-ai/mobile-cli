@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.0.30
+
+### Patch Changes
+
+- 6b504f8: Support keypress delay for TYPE steps in the UI
+
 ## 0.0.29
 
 ### Patch Changes
