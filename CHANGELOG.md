@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.1.0
+
+### Minor Changes
+
+- a62310c: Add AI action support to Momentic mobile
+
+### Patch Changes
+
+- 799c437: Fix bug causing mobile to not respect the agent config specified in the momentic.config.yaml
+- b7f9758: Improve error messages when merging results fails due to validation errors
+
 ## 0.0.30
 
 ### Patch Changes
