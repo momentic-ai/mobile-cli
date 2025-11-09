@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.1.1
+
+### Patch Changes
+
+- bfd938e: Fix bug where AI action steps did not write proper results when executed through `momentic-mobile run`
+- bfd938e: Optimize the latency of taking screenshots of the emulator
+
 ## 0.1.0
 
 ### Minor Changes
