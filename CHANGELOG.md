@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.1.2
+
+### Patch Changes
+
+- 5af3fff: Support setting retries at the test level in the test options dialog
+
 ## 0.1.1
 
 ### Patch Changes
