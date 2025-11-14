@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.2.0
+
+### Minor Changes
+
+- ca32829: Add a --regenerate-caches flag to rebuild caches from scratch
+
+### Patch Changes
+
+- ef7f855: Respect retries configured in momentic.config.yaml
+- c824bc5: Add new command to kill an app and remove it from backgrounding
+- 2e211cc: Fix a date parsing bug impacting safari
+
 ## 0.1.2
 
 ### Patch Changes
