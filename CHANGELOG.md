@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.2.1
+
+### Patch Changes
+
+- 99f3794: Add a visual indicator when caches aren't being saved in the editor
+
 ## 0.2.0
 
 ### Minor Changes
