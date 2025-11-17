@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.2.3
+
+### Patch Changes
+
+- baf3009: Fix a bug where we weren't focusing the element before typing in webviews
+
 ## 0.2.2
 
 ### Patch Changes
