@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.2.2
+
+### Patch Changes
+
+- e944e96: Improvements to mobile logs table including auto-scrolling and emulator filter
+
 ## 0.2.1
 
 ### Patch Changes
