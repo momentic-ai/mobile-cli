@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.3.0
+
+### Minor Changes
+
+- d3f4d0f: Upgrade to latest playwright
+
+### Patch Changes
+
+- 9ac963d: Upgrade dependencies to address security vulnerabilities
+
 ## 0.2.3
 
 ### Patch Changes
