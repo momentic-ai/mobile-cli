@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.3.1
+
+### Patch Changes
+
+- 61aaa3d: Use System.PullRequest.SourceBranch to infer branch for Azure devops workflows triggered by PRs
+
 ## 0.3.0
 
 ### Minor Changes
