@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.0
+
+### Minor Changes
+
+- 5c2c606: Support running Momentic Mobile against a local emulator and existing AVD. This mode can be entered by changing the Region in test options to "Local" and then configuring an AVD and optionally a path to an APK on disk.
+
 ## 0.3.1
 
 ### Patch Changes
