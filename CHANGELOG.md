@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.4.2
+
+### Patch Changes
+
+- 86c50d3: Support Android 15 when using remote emulators
+- 86c50d3: Tune swipe to only use 80% of the container size by default
+
 ## 0.4.1
 
 ### Patch Changes
