@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.1
+
+### Patch Changes
+
+- cbc6461: Add an extra layer of validation to ensure that the page doesn't change after caches are resolved
+
 ## 0.4.0
 
 ### Minor Changes
