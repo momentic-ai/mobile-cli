@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.4
+
+### Patch Changes
+
+- 663c7da: Be able to configure JAVASCRIPT step's env key
+
 ## 0.4.3
 
 ### Patch Changes
