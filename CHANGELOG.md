@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.5
+
+### Patch Changes
+
+- d137b25: Fix issue where newly created modules crashed the editor
+
 ## 0.4.4
 
 ### Patch Changes
