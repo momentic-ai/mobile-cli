@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.3
+
+### Patch Changes
+
+- 00d1a73: New editor UI
+
 ## 0.4.2
 
 ### Patch Changes
