@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.4.6
+
+### Patch Changes
+
+- 481d971: Fix number validation for inputs and schema validation when there are multiple fields being validated
+- 00b1be0: Fix vulnerable dependencies
+- 2d6e0d3: Allow users to control when to force clear content, even for elements that are not inputs or textareas
+
 ## 0.4.5
 
 ### Patch Changes
