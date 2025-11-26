@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.4.7
+
+### Patch Changes
+
+- 033b051: Swipe % input should be a whole number
+
 ## 0.4.6
 
 ### Patch Changes
