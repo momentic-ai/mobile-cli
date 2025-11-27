@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.4.8
+
+### Patch Changes
+
+- 09ebf4c: Change implementation for how non-input elements are cleared during TYPE steps in webviews
+- c0e487f: Fix a bug where caches were being discarded despite being usable
+
 ## 0.4.7
 
 ### Patch Changes
