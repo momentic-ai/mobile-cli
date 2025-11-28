@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.5.0
+
+### Minor Changes
+
+- 1a2fe66: Support mocking android device location
+
 ## 0.4.8
 
 ### Patch Changes
