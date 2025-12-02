@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.7.1
+
+### Patch Changes
+
+- c878f84: Always serialize labels in the web a11y tree
+- c878f84: Serialize parents of momentic-ineligible elements to provide more context
+
 ## 0.7.0
 
 ### Minor Changes
