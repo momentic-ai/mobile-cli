@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.7.0
+
+### Minor Changes
+
+- 6301fd3: Add new screen check step type
+
 ## 0.6.0
 
 ### Minor Changes
