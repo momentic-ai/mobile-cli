@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.6.0
+
+### Minor Changes
+
+- bff59bd: Be able to run from a specified step via the editor context menu
+
+### Patch Changes
+
+- d636332: Record reason why caches did not resolve
+- d636332: Support resolving caches with a single selector
+
 ## 0.5.0
 
 ### Minor Changes
