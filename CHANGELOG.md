@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.7.2
+
+### Patch Changes
+
+- 4d79e7e: Fix add before, add after, switching step types making the step not selectable, and switching to module
+- ec02c2a: Support the new SCROLL_TO command, which scrolls to an element in native contexts
+- 4d79e7e: Show AI ACTION trajectory and result
+
 ## 0.7.1
 
 ### Patch Changes
