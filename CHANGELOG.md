@@ -34,6 +34,7 @@
 
 ### Patch Changes
 
+- 982cef1: Fix some cases where Android 15 version would not be respected
 - 09ebf4c: Change implementation for how non-input elements are cleared during TYPE steps in webviews
 - c0e487f: Fix a bug where caches were being discarded despite being usable
 
