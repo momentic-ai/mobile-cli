@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.8.0
+
+### Minor Changes
+
+- d329656: Add uninstall app mobile step type
+
+### Patch Changes
+
+- 946822c: Add more checks to make sure that selectors still resolve to the same element after cache resolution
+
 ## 0.7.2
 
 ### Patch Changes
