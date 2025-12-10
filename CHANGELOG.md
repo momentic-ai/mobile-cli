@@ -1,15 +1,5 @@
 # momentic-mobile
 
-## 0.8.1
-
-### Patch Changes
-
-- bf21ca7: Respect --regenerate-caches flag in the CLI
-- edad89b: Fix the direction of swiping when using custom x/y coordinates
-- bf21ca7: Make git repository metadata more consistent when running on CircleCI
-- edad89b: Change swipe implementation in webviews to emit touch actions and drag the mouse, as opposed to scrolling the mouse
-- edad89b: Display x/y coordinate indicator in the mobile editor
-
 ## 0.8.0
 
 ### Minor Changes
