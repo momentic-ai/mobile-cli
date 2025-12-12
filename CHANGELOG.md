@@ -1,5 +1,25 @@
 # momentic-mobile
 
+## 0.9.0
+
+### Minor Changes
+
+- be687d5: Add new Element Check step type
+- 6983b6e: Add support for form-urlencoded API request bodies
+- afe2df5: Show output in step config pane when running step in app
+
+### Patch Changes
+
+- d169573: Stop appending '.test' to every run name
+- e801f0d: Fix a bug in the REQUEST step where content type was not set according to the body type chosen
+- d4b4c70: Respect --regenerate-caches flag in the CLI
+- d4b4c70: Fix the direction of swiping when using custom x/y coordinates
+- 773a4f8: Ai Actions on mobile now how access to "swipe" and "scroll to" step types.
+- d4b4c70: Make git repository metadata more consistent when running on CircleCI
+- d4b4c70: Change swipe implementation in webviews to emit touch actions and drag the mouse, as opposed to scrolling the mouse
+- 847ae7d: Also serialize elements with background images and no children as images in the accessibility tree
+- d4b4c70: Display x/y coordinate indicator in the mobile editor
+
 ## 0.8.0
 
 ### Minor Changes
