@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.9.1
+
+### Patch Changes
+
+- c146c24: Improve test search performance
+
 ## 0.9.0
 
 ### Minor Changes
