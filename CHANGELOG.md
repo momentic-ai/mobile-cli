@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.9.3
+
+### Patch Changes
+
+- f0902e9: Fix issue where choosing "latest available" through the edit test options menu would incorrectly choose the literal tag **NONE**
+
 ## 0.9.2
 
 ### Patch Changes
