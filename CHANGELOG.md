@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.9.2
+
+### Patch Changes
+
+- a52493d: Update navigation section header link styles to appear clickable
+
 ## 0.9.1
 
 ### Patch Changes
