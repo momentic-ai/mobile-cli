@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.9.5
+
+### Patch Changes
+
+- 1d05bfc: Add debug logging for local AVD creation
+
 ## 0.9.4
 
 ### Patch Changes
