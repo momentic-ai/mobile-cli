@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.9.4
+
+### Patch Changes
+
+- f0b8c4e: Add support for the drag and drop step
+- 34b2281: Change ordering of keys in test files
+
 ## 0.9.3
 
 ### Patch Changes
