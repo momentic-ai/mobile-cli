@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.9.6
+
+### Patch Changes
+
+- d80023c: Normalize headers in request command
+
 ## 0.9.5
 
 ### Patch Changes
