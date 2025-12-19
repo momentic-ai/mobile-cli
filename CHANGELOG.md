@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.11.0
+
+### Minor Changes
+
+- ef6a5dd: Add tolerances to cache attributes and improve locator and assertion prompts
+
+### Patch Changes
+
+- c128c22: Fix issue with module parameters and description not saving
+
 ## 0.10.0
 
 ### Minor Changes
