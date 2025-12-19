@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.10.0
+
+### Minor Changes
+
+- 30a0179: Add reasoning section to step config pane
+
+### Patch Changes
+
+- 9184873: Automatically allocate more RAM for local emulators based on available machine specs
+- 9184873: Add retry to appium UIAutomator2 server initialization
+
 ## 0.9.6
 
 ### Patch Changes
