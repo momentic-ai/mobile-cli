@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.12.0
+
+### Minor Changes
+
+- 3bd2528: Add toggle settings mobile step type
+
 ## 0.11.0
 
 ### Minor Changes
