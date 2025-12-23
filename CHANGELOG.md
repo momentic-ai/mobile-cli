@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.12.1
+
+### Patch Changes
+
+- 9fdae76: Fix issue with hanlding numerical values in DOM processing
+
 ## 0.12.0
 
 ### Minor Changes
