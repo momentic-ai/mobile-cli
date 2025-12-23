@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.12.2
+
+### Patch Changes
+
+- 050800c: Detect and prevent duplicate local emulator sessions
+- a33a3b1: Update momentic.config file to allow specifying repository root to display in UI
+
 ## 0.12.1
 
 ### Patch Changes
