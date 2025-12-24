@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.13.0
+
+### Minor Changes
+
+- c3913d6: Upgrade models for mobile locator and mobile assertion
+- c3913d6: Support memory for mobile assertions and locator calls, configurable both in momentic.config.yaml and at the test level. Defaults to ON.
+
+### Patch Changes
+
+- c3913d6: Support sharding when running mobile tests
+- 44d0c30: Improve input for OPEN APP step by providing list of available apks
+
 ## 0.12.2
 
 ### Patch Changes
