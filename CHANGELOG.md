@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.13.1
+
+### Patch Changes
+
+- c059bbd: Fix request step schema parsing errors
+- 5c733be: Show APK details in the overview tab of the run viewer
+
 ## 0.13.0
 
 ### Minor Changes
