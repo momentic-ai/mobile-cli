@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.14.0
+
+### Minor Changes
+
+- ba87e1d: Add ability to edit name and description of tests from Repository view
+
+### Patch Changes
+
+- 2acc865: Surface error state when emualator disconnects
+
 ## 0.13.2
 
 ### Patch Changes
