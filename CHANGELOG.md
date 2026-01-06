@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.13.2
+
+### Patch Changes
+
+- 861a0b4: Numeric inputs no longer allow letter inputs.
+- 528e9c0: Consolidate "Outputs" in step editor and fix assets column width
+- 6b37353: Fix issue with drag and drop input fields being reset on blur
+
 ## 0.13.1
 
 ### Patch Changes
