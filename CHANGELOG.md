@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 0.15.0
+
+### Minor Changes
+
+- 9104af2: Create a separate page for managing environments in the mobile local app.
+- 9104af2: Allow configuring local AVD ID and path through the environment.
+
+### Patch Changes
+
+- dcdbae8: Fix a bug that caused certain caches to bust unnecessarily inside iframes
+- 32457c8: Support emulators in the asia south region(beta)
+- 915fb5a: Support graceful best effort reconnection for local emulators (up to 1hr)
+- 80b7ce0: Mobile locator agent prompt tuning and model improvement.
+- 9104af2: Default creation of new tests to 1 retry
+- 9e55eec: Fix drag and drop not working in webviews
+
 ## 0.14.0
 
 ### Minor Changes
