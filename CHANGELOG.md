@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.16.0
+
+### Minor Changes
+
+- 26b0199: Add list command to mobile cli and add include/exclude filters for run command
+
+### Patch Changes
+
+- c26b2d5: Logcat logs saved and exported for editor sessions.
+
 ## 0.15.1
 
 ### Patch Changes
