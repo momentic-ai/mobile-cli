@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.15.1
+
+### Patch Changes
+
+- 514244c: Fix validation issue preventing filling step info with multiple fields
+
 ## 0.15.0
 
 ### Minor Changes
