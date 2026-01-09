@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.16.2
+
+### Patch Changes
+
+- b5655ef: Executing an AI action inside a module no longer triggers a pull page error
+
 ## 0.16.1
 
 ### Patch Changes
