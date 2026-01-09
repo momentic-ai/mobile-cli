@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.17.0
+
+### Minor Changes
+
+- 132d0a1: Add label support to mobile tests, editable through repository view test details pane and supported in run group filtering
+
 ## 0.16.3
 
 ### Patch Changes
