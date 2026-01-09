@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.16.3
+
+### Patch Changes
+
+- ee96a70: Preserve test execution status and traces during background data refetches
+
 ## 0.16.2
 
 ### Patch Changes
