@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.16.1
+
+### Patch Changes
+
+- bedd1b7: Add automatic network diagnostics when using remote regions
+- 06f53a6: Add quick directory output locations in mobile ADD FILE step
+- 388067e: Improve cache v3 requirement generation
+
 ## 0.16.0
 
 ### Minor Changes
