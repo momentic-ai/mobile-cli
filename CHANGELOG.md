@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.18.0
+
+### Minor Changes
+
+- e014152: Add rotate orientation step type
+- e014152: Add frame to mobile emulator
+
+### Patch Changes
+
+- d1a4ca2: Show mobile run failure details in the run viewer on app.momentic.ai, and log fatal errors to the console as well
+- 7f73bce: Fix cache resolution bug when running tests outside of CI on main
+
 ## 0.17.0
 
 ### Minor Changes
