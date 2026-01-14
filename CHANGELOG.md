@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.19.0
+
+### Minor Changes
+
+- a3ea1d1: Add '--reporter' flag with support for junit for the mobile cli
+
 ## 0.18.0
 
 ### Minor Changes
