@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.20.0
+
+### Minor Changes
+
+- dbf1197: Failure recovery in mobile tests
+
 ## 0.19.1
 
 ### Patch Changes
