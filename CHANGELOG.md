@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.19.1
+
+### Patch Changes
+
+- 712604f: Fix async promise rejection error when node highlights fail
+
 ## 0.19.0
 
 ### Minor Changes
