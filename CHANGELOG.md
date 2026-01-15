@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.20.3
+
+### Patch Changes
+
+- bd8e2a1: Eliminate waiting for screenshot stability on app launch as well to reduce latency
+
 ## 0.20.2
 
 ### Patch Changes
