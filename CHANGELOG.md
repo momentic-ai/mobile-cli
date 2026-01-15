@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.20.1
+
+### Patch Changes
+
+- 8fd997f: Add "assets download" command to pull a previously uploaded asset from Momentic's servers
+- 8fd997f: Speed improvements for running a variety of steps within webviews
+
 ## 0.20.0
 
 ### Minor Changes
