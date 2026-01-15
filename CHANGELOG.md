@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.21.0
+
+### Minor Changes
+
+- abf8fbd: Add support for overriding git metadata using environment variables
+
 ## 0.20.3
 
 ### Patch Changes
