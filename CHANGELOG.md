@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.21.1
+
+### Patch Changes
+
+- 71277fd: Remove unrelated logs for the list command output
+
 ## 0.21.0
 
 ### Minor Changes
