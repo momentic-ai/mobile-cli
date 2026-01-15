@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.20.2
+
+### Patch Changes
+
+- 04688b3: Fix mobile failure recovery not saving failure recovery details to results
+
 ## 0.20.1
 
 ### Patch Changes
