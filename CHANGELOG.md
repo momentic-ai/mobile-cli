@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.22.2
+
+### Patch Changes
+
+- 5c53417: Catch invalid test file schema errors when launching local app
+
 ## 0.22.1
 
 ### Patch Changes
