@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.21.2
+
+### Patch Changes
+
+- 1b9383e: Fix failure recovery sometimes executing on desktop app test runs
+- bba2c7b: Fix a bug where caches were being saved incorrectly for failing test runs
+
 ## 0.21.1
 
 ### Patch Changes
