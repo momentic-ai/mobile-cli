@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.22.1
+
+### Patch Changes
+
+- b440950: Use PNGs for failure recovery
+- 5faca04: Support --region flag when running mobile tests, which can be used to force the tests to run remotely or locally. This can be useful when using different setups for development and CI.
+
 ## 0.22.0
 
 ### Minor Changes
