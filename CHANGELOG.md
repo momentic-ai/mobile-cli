@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.22.0
+
+### Minor Changes
+
+- 25038dc: Support duplicating mobile tests from the editor
+
 ## 0.21.2
 
 ### Patch Changes
