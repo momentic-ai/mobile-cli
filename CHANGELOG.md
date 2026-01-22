@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.23.0
+
+### Minor Changes
+
+- fdfa6bf: Be able to view tests that are using a module when viewing a module in the app
+- 6553022: Add undo/redo functionality for mobile editor
+
+### Patch Changes
+
+- 9e40a82: Improve handling of ambiguous global locator redirect cases
+
 ## 0.22.2
 
 ### Patch Changes
