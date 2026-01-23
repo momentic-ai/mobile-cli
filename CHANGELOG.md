@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.24.0
+
+### Minor Changes
+
+- 976ff82: Support triple tap option
+
+### Patch Changes
+
+- 4520016: Patch minor security vulnerability with diff-lines
+
 ## 0.23.0
 
 ### Minor Changes
