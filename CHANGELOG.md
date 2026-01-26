@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.24.1
+
+### Patch Changes
+
+- b544b6b: Set engine correctly (previously cli failed at runtime)
+
 ## 0.24.0
 
 ### Minor Changes
