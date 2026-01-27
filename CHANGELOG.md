@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.24.2
+
+### Patch Changes
+
+- 762bf2c: Fix failure recovery steps not showing as AI generated in mobile results
+
 ## 0.24.1
 
 ### Patch Changes
