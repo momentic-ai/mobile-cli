@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.25.1
+
+### Patch Changes
+
+- 7fc78d8: Fix playwright dependency installation on windows
+- 9ff9bd1: Add field-level validation to editor step inputs
+
 ## 0.25.0
 
 ### Minor Changes
