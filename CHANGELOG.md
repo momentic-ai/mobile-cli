@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.26.0
+
+### Minor Changes
+
+- 42e6e61: List runs on landing page for local run viewer and make runId optional in results view command
+
+### Patch Changes
+
+- 296bc95: Improve enforcement of relative elements in caches
+- c0fdd3d: Pin appium-uiautomator2 package as it breaks with higher version of appium
+
 ## 0.25.1
 
 ### Patch Changes
