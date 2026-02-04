@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.26.1
+
+### Patch Changes
+
+- 43b0ba0: Fix a bug where element checks on attributes that do not exist pass
+
 ## 0.26.0
 
 ### Minor Changes
