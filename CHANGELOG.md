@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.27.0
+
+### Minor Changes
+
+- a2f8bcd: Record system and process memory and cpu resource data during text execution and display in Run Viewer
+
 ## 0.26.1
 
 ### Patch Changes
