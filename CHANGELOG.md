@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.28.0
+
+### Minor Changes
+
+- 5953418: Show webview traces within mobile trace
+- 1f7e786: Adds quarantined_at to CLI and Mobile CLI report outputs
+
+### Patch Changes
+
+- 8eb6014: Improve android webview detection
+
 ## 0.27.0
 
 ### Minor Changes
