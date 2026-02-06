@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.29.0
+
+### Minor Changes
+
+- 35dce4f: Capture before and after XML state for mobile tests by default. Can be turned off with test setting
+  Update accessibility language and tab in mobile editor to screen xml
+
+### Patch Changes
+
+- 6348cf4: Fix UI bug where selecting Long Press on tap step would not update step list content displayed
+
 ## 0.28.0
 
 ### Minor Changes
