@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.30.0
+
+### Minor Changes
+
+- ad9fcf4: Show AI settings in run viewer
+
 ## 0.29.0
 
 ### Minor Changes
