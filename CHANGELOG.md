@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.30.1
+
+### Patch Changes
+
+- 247ad9f: Fix a sharding bug where some shards included duplicate items
+
 ## 0.30.0
 
 ### Minor Changes
