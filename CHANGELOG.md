@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.31.0
+
+### Minor Changes
+
+- b1afdff: Improve interaction model to detect element targets that change mid-interaction and retry execution.
+
 ## 0.30.1
 
 ### Patch Changes
