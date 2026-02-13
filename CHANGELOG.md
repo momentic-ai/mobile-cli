@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.31.1
+
+### Patch Changes
+
+- 1a3df3b: Add editor options for change emulator orientation
+- 4d54e1e: Fix issue where toggling through test details panels would not update test name input value
+
 ## 0.31.0
 
 ### Minor Changes
