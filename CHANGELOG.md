@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.31.2
+
+### Patch Changes
+
+- 81f8526: Ungate the feature to detect element targets that change mid-interaction (part of the last minor release)
+
 ## 0.31.1
 
 ### Patch Changes
