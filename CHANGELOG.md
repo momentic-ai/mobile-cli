@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.32.0
+
+### Minor Changes
+
+- 2f5ed8a: Add backend support for iOS test execution
+
+### Patch Changes
+
+- 74fd5f5: Fix use-editor-state getUniqueId call
+- c41dd02: Fix caches not saving for mobile tests run on the cli
+- b3783ec: Fix issue where editor was saved when first loaded with no changes
+
 ## 0.31.2
 
 ### Patch Changes
