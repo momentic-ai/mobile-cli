@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.33.0
+
+### Minor Changes
+
+- 97ebb47: Adds ability to reset android emulator.
+
 ## 0.32.1
 
 ### Patch Changes
