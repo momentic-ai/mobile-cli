@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.32.1
+
+### Patch Changes
+
+- 14a3bba: Fix the minimum width of the navigation bar in the local app
+
 ## 0.32.0
 
 ### Minor Changes
