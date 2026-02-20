@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.33.2
+
+### Patch Changes
+
+- eb74162: Capture more exceptions for internal reporting
+
 ## 0.33.1
 
 ### Patch Changes
