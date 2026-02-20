@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.33.1
+
+### Patch Changes
+
+- 0998aa7: Fix issue with step edit panel toggling when expanding to view module children
+
 ## 0.33.0
 
 ### Minor Changes
