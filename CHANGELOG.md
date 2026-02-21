@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.33.3
+
+### Patch Changes
+
+- 43c4fa9: Improve error reporting
+
 ## 0.33.2
 
 ### Patch Changes
