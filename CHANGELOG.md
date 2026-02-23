@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.34.1
+
+### Patch Changes
+
+- 642ae79: Fix issue where OPEN_APP selection was not immediately saving
+
 ## 0.34.0
 
 ### Minor Changes
