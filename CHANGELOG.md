@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.34.0
+
+### Minor Changes
+
+- 3076456: Update Run Viewer UI to match mobile editor experience
+
 ## 0.33.4
 
 ### Patch Changes
