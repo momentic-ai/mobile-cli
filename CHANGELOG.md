@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.33.4
+
+### Patch Changes
+
+- c6f0f27: Improve error handling in environments where git is not installed
+
 ## 0.33.3
 
 ### Patch Changes
