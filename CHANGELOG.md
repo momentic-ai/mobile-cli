@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.0
+
+### Minor Changes
+
+- bdd0757: Update mobile reset button styling and call it "Soft Reset"
+
 ## 0.34.2
 
 ### Patch Changes
