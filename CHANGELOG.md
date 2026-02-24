@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.1
+
+### Patch Changes
+
+- 5818d33: Update UI for failure recovery steps
+
 ## 0.35.0
 
 ### Minor Changes
