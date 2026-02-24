@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.34.2
+
+### Patch Changes
+
+- b3099d1: Fix issues with run Viewer UI
+
 ## 0.34.1
 
 ### Patch Changes
