@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.2
+
+### Patch Changes
+
+- 7cb2c54: Fix overflow issue when resizing local run viewer
+
 ## 0.35.1
 
 ### Patch Changes
