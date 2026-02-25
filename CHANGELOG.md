@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.4
+
+### Patch Changes
+
+- 03d78db: Change orientation of label for run viewer step settings that include code blocks
+
 ## 0.35.3
 
 ### Patch Changes
