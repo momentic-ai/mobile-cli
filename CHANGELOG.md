@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.5
+
+### Patch Changes
+
+- 57dac0a: Fix issue where unbroken words in editor results caused element overflow
+
 ## 0.35.4
 
 ### Patch Changes
