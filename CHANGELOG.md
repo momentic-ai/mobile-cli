@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.35.6
+
+### Patch Changes
+
+- 49da689: Limit width of tooltips in video player
+
 ## 0.35.5
 
 ### Patch Changes
