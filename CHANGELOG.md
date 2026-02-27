@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.36.0
+
+### Minor Changes
+
+- 26bb35f: Update run viewer to use new hierarchy structure for nested steps
+- 26bb35f: Update editor to use new hierarchy structure for nested steps
+
+### Patch Changes
+
+- b7bec68: Pressing Escape closes the details panel when viewing a row (tests, suites, files, test plans, run groups).
+
 ## 0.35.6
 
 ### Patch Changes
