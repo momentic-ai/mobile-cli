@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.36.1
+
+### Patch Changes
+
+- f54591f: Fix issue where save action was called upon initial test load
+
 ## 0.36.0
 
 ### Minor Changes
