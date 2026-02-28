@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.36.2
+
+### Patch Changes
+
+- 054e94e: Fix issue where run viewer steps would not collapse if selected
+- 054e94e: Fix issue where editor steps would not collapse if selected
+
 ## 0.36.1
 
 ### Patch Changes
