@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.36.3
+
+### Patch Changes
+
+- 0b9fdb3: Fix issue with video recording timestamp being off after switching tabs during high machine resource usage
+
 ## 0.36.2
 
 ### Patch Changes
