@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.36.4
+
+### Patch Changes
+
+- 43e9d4d: Add more logger context (orgId, parentStepIdChain, platform) to mobile step cache eviction log messages
+
 ## 0.36.3
 
 ### Patch Changes
