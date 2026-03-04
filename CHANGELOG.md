@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.36.5
+
+### Patch Changes
+
+- c40e39c: Always show run link input field when run group request fails in the local run viewer
+- 5ebc821: Run viewer and mobile editor layout fixes
+
 ## 0.36.4
 
 ### Patch Changes
