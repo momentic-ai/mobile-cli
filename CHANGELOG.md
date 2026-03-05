@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.37.1
+
+### Patch Changes
+
+- c6fa1e9: Fix a bug where sigint was unhandled for desktop servers
+- 30142c1: Simplify tooltip copy
+
 ## 0.37.0
 
 ### Minor Changes
