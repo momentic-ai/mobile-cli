@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.36.6
+
+### Patch Changes
+
+- abed478: Minor UI fixes
+
 ## 0.36.5
 
 ### Patch Changes
