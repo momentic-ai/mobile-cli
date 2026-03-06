@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.38.3
+
+### Patch Changes
+
+- 3f91646: Add caching for native targets in iOS
+
 ## 0.38.2
 
 ### Patch Changes
