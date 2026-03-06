@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.38.0
+
+### Minor Changes
+
+- 9757644: Add AI Extract to mobile.
+
 ## 0.37.2
 
 ### Patch Changes
