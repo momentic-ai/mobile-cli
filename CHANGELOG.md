@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.38.1
+
+### Patch Changes
+
+- fae65d2: Fix issue where mobile AI failure recovery steps were not correctly labeled in UI
+
 ## 0.38.0
 
 ### Minor Changes
