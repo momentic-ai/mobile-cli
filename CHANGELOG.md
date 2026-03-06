@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.37.2
+
+### Patch Changes
+
+- 2984701: Fix bug where local app exits on non-critical errors
+
 ## 0.37.1
 
 ### Patch Changes
