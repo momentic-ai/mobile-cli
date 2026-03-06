@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.38.2
+
+### Patch Changes
+
+- 657440c: Hide Android-only options in test options dialog for iOS tests
+
 ## 0.38.1
 
 ### Patch Changes
