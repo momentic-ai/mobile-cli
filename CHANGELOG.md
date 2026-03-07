@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.39.0
+
+### Minor Changes
+
+- a6d084f: Hide non-iOS steps from the editor for iOS tests
+
+### Patch Changes
+
+- a6d084f: Get screenshot before accessibility tree to avoid race conditions where the two are out of date
+
 ## 0.38.3
 
 ### Patch Changes
