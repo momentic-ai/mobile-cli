@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.39.2
+
+### Patch Changes
+
+- 8a78b7f: Add images to AI assertion and locator traces for run viewer
+
 ## 0.39.1
 
 ### Patch Changes
