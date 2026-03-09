@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.39.3
+
+### Patch Changes
+
+- 0e401fb: Support clear content for iOS type steps
+- 45b4d64: Add iterations and tapDelayMs support to iOS tap performer
+
 ## 0.39.2
 
 ### Patch Changes
