@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.39.1
+
+### Patch Changes
+
+- 0fefab8: Filter folder listings in mobile CLI to only show mobile tests and modules (and vice versa for the desktop CLI)
+
 ## 0.39.0
 
 ### Minor Changes
