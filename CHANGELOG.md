@@ -1,5 +1,20 @@
 # momentic-mobile
 
+## 0.40.0
+
+### Minor Changes
+
+- 13aa0b1: Momentic mobile mcp now has access to a tool to list all module headers.
+- 14994a9: feat: add iOS swipe step
+- cdca717: Momentic mobile mcp now has access to a tool to retrieve modules via selectors.
+- ffc2245: New momentic mobile mcp tool for fetching a specific test via a selector.
+- 3ca3155: New momentic mobile-mcp tool for listing tests and environments present on your machine.
+- 3454a30: Added the mcp command and stdio mcp server to momentic mobile.
+
+### Patch Changes
+
+- ce1a262: Add JAVASCRIPT, WAIT, REQUEST, and ROTATE_ORIENTATION command support to the iOS controller
+
 ## 0.39.3
 
 ### Patch Changes
