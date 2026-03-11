@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.42.0
+
+### Minor Changes
+
+- 756a3c3: Fix instances where failure recovery would suggest retrying the failed step itself unnecessarily.
+- 756a3c3: Allow AI Action to generate coordinate-based targets based on the input goal
+- 756a3c3: Fix instances where failure recovery would suggest retrying the failed step itself unnecessarily.
+
 ## 0.41.0
 
 ### Minor Changes
