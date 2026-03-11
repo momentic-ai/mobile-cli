@@ -1,18 +1,5 @@
 # momentic-mobile
 
-## 0.43.0
-
-### Minor Changes
-
-- b1bf0e8: Add drag and drop support for iOS
-- 41d1b2a: Allow SCROLL TO steps to customize maximum scroll attempts
-
-### Patch Changes
-
-- 2c21cf6: Retry appium server start for iOS tests
-- 8122b67: Adding a new step in the editor will scroll the step into view
-- aa3372a: Add env output field to javascript step
-
 ## 0.42.0
 
 ### Minor Changes
