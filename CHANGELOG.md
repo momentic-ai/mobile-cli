@@ -1,5 +1,22 @@
 # momentic-mobile
 
+## 0.41.0
+
+### Minor Changes
+
+- 065d164: Add kill app support for iOS
+- 2c142f4: New momentic mcp tool for creating tests.
+- 4e4cc92: Session start and terminate tools for the mobile mcp server.
+- 4f8d041: Rename momentic_test_environment_list to momentic_attributes_list with structured output.
+- 0ff203e: Implement press keyboard for iOS
+- ff84a5c: New create module tool for the mobile mcp.
+- 4365fd5: Add cross-platform ADD_FILE command for iOS
+- 967436f: Add cross-platform screen check support for iOS
+
+### Patch Changes
+
+- ff84a5c: Add support for absolute paths to tests in the create module tools.
+
 ## 0.40.0
 
 ### Minor Changes
