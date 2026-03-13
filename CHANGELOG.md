@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.46.0
+
+### Minor Changes
+
+- 5b03448: Add the disable cache option flag on the mcp command to enable disabling caches by the mcp, with proper validation at the command level.
+
 ## 0.45.0
 
 ### Minor Changes
