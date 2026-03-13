@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 0.45.0
+
+### Minor Changes
+
+- 3f88169: Add the save cache option flag on the mcp command to enable force cache overwrites by the mcp.
+- c91cc09: Added the get environment variables tool to the momentic mobile mcp.
+
+### Patch Changes
+
+- 4ffebd1: Fix issue where tests page scroll position reset when opening test details panel
+- 89d3205: Fix iOS driver version mismatch errors
+- dd72399: Fix emulator soft reset to also reset the test's environment variables.
+- b27f822: Add wait for stability span and change previous wait for stability description to smart waiting
+- b541fd6: Update resources tab on run viewer to have split charts for cpu/memory
+- c91cc09: Adjust the cache saving for mcp servers to not overwrite caches on main when executing run step.
+
 ## 0.44.0
 
 ### Minor Changes
