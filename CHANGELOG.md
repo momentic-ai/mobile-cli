@@ -1,5 +1,20 @@
 # momentic-mobile
 
+## 0.44.0
+
+### Minor Changes
+
+- b67f4a5: Remove the get test tool and instead pass the path to the yaml to be more token efficient.
+- b67f4a5: Add the run_step tool to the momentic mobile mcp.
+- 7dcbe42: Add the get session state tool the the momentic mobile mcp.
+- f1e5752: Add iOS scroll to command
+
+### Patch Changes
+
+- b1dd5a4: Add iOS element check step
+- cc57461: Add iOS platform-specific command defaults and hide iOS-incompatible buttons in editor UI
+- f03fea2: Improve the response from the momentic start session tool and improve the get browser state output by adding a fallback screenshot attempt and improved handling for failed xml state outputs.
+
 ## 0.43.0
 
 ### Minor Changes
