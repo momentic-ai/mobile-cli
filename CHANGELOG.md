@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.47.0
+
+### Minor Changes
+
+- 1098b96: enable ios ai action support
+
 ## 0.46.1
 
 ### Patch Changes
