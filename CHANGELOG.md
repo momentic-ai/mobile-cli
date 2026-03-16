@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.48.0
+
+### Minor Changes
+
+- e80c6b6: Remove "Debug state" step type from the add step selector.
+- deac80f: Add remote emulators to the mobile mcp.
+
+### Patch Changes
+
+- 1d46d33: Speed up code paths that fetch Git metadata for the current user and branch before the test editor opens
+- a3bc4b2: Prevent soft reset during ongoing execution on mobile
+- fb80f3d: Update display of Add File step output directory
+- ce4dd29: Fix soft reset killing WebDriverAgent and Appium apps on iOS
+
 ## 0.47.0
 
 ### Minor Changes
