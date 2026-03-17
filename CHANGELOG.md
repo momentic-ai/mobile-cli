@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.48.1
+
+### Patch Changes
+
+- 6cbf592: Fix scroll-to-target failing after scrolling element into view
+- 5956c7b: Improve reliability of iOS rotate orientation step
+- 73fbf9b: Fix iOS type steps failing with repeated characters
+- ce26cdd: Fix for not being able to add mobile parameters and parameters not being replaced in template expressions
+- 5956c7b: Fix cache/memory eviction on iOS
+
 ## 0.48.0
 
 ### Minor Changes
