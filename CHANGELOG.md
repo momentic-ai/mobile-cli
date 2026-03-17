@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.50.0
+
+### Minor Changes
+
+- 12338df: Support running the local app on a custom port via --port flag or MOMENTIC_PORT env var
+- f52e2b1: Add support for iOS app launch arguments
+
+### Patch Changes
+
+- bb29d92: Fix so steps are unselected when closing step details panel
+- fc73131: Minor UI organization for step details panel
+
 ## 0.49.1
 
 ### Patch Changes
