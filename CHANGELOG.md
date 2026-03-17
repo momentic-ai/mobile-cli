@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.49.0
+
+### Minor Changes
+
+- 9c486cb: New buildkite-json reporter for run granularity reporter data for buildkite.
+
+### Patch Changes
+
+- 05b8d58: Handle Appium driver manifest race condition: retry on 'Multiple drivers claim' error in addition to 'Could not find a driver' error
+- 9c486cb: Fix junit reporter to properly identify whether a step failed in setup, main, or teardown.
+- 388c254: Fix drag hover duration for iOS
+
 ## 0.48.1
 
 ### Patch Changes
