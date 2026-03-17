@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.49.1
+
+### Patch Changes
+
+- 049e435: Fix Open App packages input requiring two clicks to type by preventing Radix Popover from stealing focus on open
+
 ## 0.49.0
 
 ### Minor Changes
