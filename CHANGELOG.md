@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.52.0
+
+### Minor Changes
+
+- 1d33d67: Improve Android page retrieval speed
+- 1d33d67: Turn on Appium's "simpleBoundsCalculation" flag for Android emulators by default to avoid hanging page fetches
+
+### Patch Changes
+
+- e69d482: Add query param for displaying detailed traces
+
 ## 0.51.0
 
 ### Minor Changes
