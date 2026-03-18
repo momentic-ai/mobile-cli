@@ -1,5 +1,20 @@
 # momentic-mobile
 
+## 0.53.0
+
+### Minor Changes
+
+- 4a3c90f: Add the preview step tool to the momentic mobile mcp.
+- b850fcf: Add the get initial data tool for mobile mcp.
+- fe5c302: Add the splice tool to the momentic mobile mcp server.
+
+### Patch Changes
+
+- 889afe5: Update run viewer details panel styles
+- de63f5c: Improve response message to the model when cache entries fail to save inside the mcp's splice tool.
+- e749e10: Sentence case step type names (AI check, Element check, Page check) across UI labels, error messages, and agent prompts
+- d8d300e: Change the mcp step parser to accept --_-fraction instead of --_-percentage to fix the misnomer.
+
 ## 0.52.1
 
 ### Patch Changes
