@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.52.1
+
+### Patch Changes
+
+- 42fc41e: Fix support for conditional commands in the run viewer
+- 4a7f565: Make relative element cache checks stricter
+- 4a7f565: Fix a bug where some required elements were incorrectly failing relativity checks
+
 ## 0.52.0
 
 ### Minor Changes
