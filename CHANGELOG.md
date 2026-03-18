@@ -1,5 +1,22 @@
 # momentic-mobile
 
+## 0.51.0
+
+### Minor Changes
+
+- 90dbec5: Add --session-idle-timeout-minutes flag and MOMENTIC_SESSION_IDLE_TIMEOUT_MINUTES env var to configure MCP session idle timeout
+
+### Patch Changes
+
+- da6baed: Display the actual connected limbar region in the mobile editor device preview
+- 9164f71: Filter channels and tags by platform in edit mobile test options dialog
+- c22e44c: Split asset details into separate Channel and Tag sections
+- 4d89166: Exclude failure_section tag from buildkite JSON report for non-failed tests
+- 38ec4a1: Minor UI updates on run viewer step list
+- 3ccb48d: Revert --port flag to use PORT env var instead of MOMENTIC_PORT
+- 96e97fe: Prevent InlineCode from shrinking in run viewer step content by adding shrink-0
+- d31368a: Hide Add File step for iOS
+
 ## 0.50.0
 
 ### Minor Changes
