@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.54.0
+
+### Minor Changes
+
+- 893e28a: Removed the momentic_module_list tool from the mcp and moved its functionality to the get attributes tool.
+- 893e28a: Renamed the momentic_attributes_list to momentic_get_attributes.
+
+### Patch Changes
+
+- 893e28a: Improved the error handling and description of the get attributes tool.
+- 893e28a: Improved the momentic-test skill to better understand the get attributes tool.
+
 ## 0.53.1
 
 ### Patch Changes
