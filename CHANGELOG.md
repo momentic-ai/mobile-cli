@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.53.1
+
+### Patch Changes
+
+- a5c98fc: Upgrade the mobile mcp get attributes tool to return the availableChannels for the model to select for test creation.
+
 ## 0.53.0
 
 ### Minor Changes
