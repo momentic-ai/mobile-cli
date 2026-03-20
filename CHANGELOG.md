@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.55.1
+
+### Patch Changes
+
+- 3d70ff6: Harden the mcp to prefer remote emulators even more.
+- 8d41b69: Tune the session creation tool to default to the test's default emulator then primarily remote emulators. The model using the mcp tool should only use local emulators when directly requested.
+- 77924aa: Improve the session start tool to return the installed applications
+- 77924aa: Improve the get environment variables tool to also return a file link to an installed applications report.
+- 77924aa: Auto filter the available applications in IOS tests.
+
 ## 0.55.0
 
 ### Minor Changes
