@@ -1,5 +1,20 @@
 # momentic-mobile
 
+## 0.55.0
+
+### Minor Changes
+
+- 1e7e990: Add the install-skills command to the mobile cli package.
+- 2c49514: Rename the get attributes tool to get artifacts and updated the momentic-test skill.
+
+### Patch Changes
+
+- d4344e0: Fix cache consistency enforcement for iOS
+- 4f3602f: Add labels to the get attributes channels file artifact output and improve descriptions for more accurate test creation.
+- 0515419: Update the skill to not push through errors when the session has clear errors.
+- f6de50e: Improve the skill to prevent the model from over using javascript steps for actions native momentic steps already perform.
+- 5fa34ba: Tune tool descriptions to encorage better model behavior when editing.
+
 ## 0.54.0
 
 ### Minor Changes
