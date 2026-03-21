@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.56.0
+
+### Minor Changes
+
+- 1955db3: Add --java-home and --android-home flags to the mobile mcp to enable mcp usage in codex.
+
+### Patch Changes
+
+- cdfbc66: Resolve issues with hanging black Apple logo screen
+- cdfbc66: Improve the performance of typing on iOS
+
 ## 0.55.1
 
 ### Patch Changes
