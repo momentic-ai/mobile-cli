@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.58.0
+
+### Minor Changes
+
+- e548fbb: Add relative coordinates support to SWIPE step for both iOS and Android platforms
+- 3d10517: Update prompts for iOS locator, assertion, and AI Action
+- 30701a9: Inject variables into AI action instructions on mobile
+
+### Patch Changes
+
+- 3cb2a73: Fix issue where you could not clear target description field on type step
+- 631bfc9: Hoist before/after screenshots for mobile AI action steps from sub-steps
+
 ## 0.57.0
 
 ### Minor Changes
