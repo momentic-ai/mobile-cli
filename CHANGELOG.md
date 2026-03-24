@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.59.0
+
+### Minor Changes
+
+- e7d9c14: Add support for mocking iOS geolocation
+
+### Patch Changes
+
+- d5474af: Improve performance of waiting for screenshot stability
+- d5474af: Increase timeout for taking screenshots
+- d5474af: Remove invalid regions from iOS test creation options
+- d5474af: Filter out webdriver agent from apps to open
+
 ## 0.58.0
 
 ### Minor Changes
