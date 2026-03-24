@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.60.0
+
+### Minor Changes
+
+- 42d95af: Add ability to delete a test from the test details pane in the mobile app
+
 ## 0.59.1
 
 ### Patch Changes
