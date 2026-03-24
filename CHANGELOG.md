@@ -5,10 +5,11 @@
 ### Minor Changes
 
 - 3e0591e: Release iOS testing in beta
+- 480a951: Add support for iOS modules.
 
 ### Patch Changes
 
-- 480a951: Add support for iOS modules
+- 17fe56c: Fix a bug where appium would fail to register drivers if running with the --parallel flag.
 - 7a00b75: Change the splice tool to return a recovery artifact to enable agents to undo bad splices accurately.
 - 6a7caae: Improve the skill to improve the model's usage of cache keys to persist caches from previewed steps.
 
