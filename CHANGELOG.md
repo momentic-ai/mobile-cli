@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.59.1
+
+### Patch Changes
+
+- 5faf16b: Allow swiping on webviews
+- 5faf16b: Allow typing into webviews
+- a2a574a: Strip permissions from uploaded assets so that they can be installed without errors
+
 ## 0.59.0
 
 ### Minor Changes
