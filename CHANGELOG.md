@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.60.1
+
+### Patch Changes
+
+- f7cc3e2: Change default element check condition from "exists" to "is visible"
+
 ## 0.60.0
 
 ### Minor Changes
