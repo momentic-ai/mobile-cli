@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.61.1
+
+### Patch Changes
+
+- adb892d: Update engines to be consistent with existing requirements
+- b9ef0cb: Use more performant methods for basic actions
+
 ## 0.61.0
 
 ### Minor Changes
