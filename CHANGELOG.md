@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.62.0
+
+### Minor Changes
+
+- 808091e: Open up a headful emulator UI when creating mobile MCP sessions by default.
+
+### Patch Changes
+
+- 9b1b3f6: Disable xml snapshots by default for mobile runs
+- 808091e: Fix issue where opening Chrome would sometimes show only a small corner of the page.
+
 ## 0.61.1
 
 ### Patch Changes
