@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.65.0
+
+### Minor Changes
+
+- e506d2b: Add CLI flags to override region for mobile editor sessions
+
+### Patch Changes
+
+- e506d2b: Increase timeout for Android app installation to reduce emulator creation errors
+
 ## 0.64.0
 
 ### Minor Changes
