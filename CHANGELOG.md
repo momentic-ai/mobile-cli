@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.63.1
+
+### Patch Changes
+
+- bc5fc8a: Improve mcp session logging.
+
 ## 0.63.0
 
 ### Minor Changes
