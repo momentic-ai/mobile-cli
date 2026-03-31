@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.63.0
+
+### Minor Changes
+
+- 07821c5: Change install-skills to do local installs instead of global.
+- 3a858d1: Add support for executing adb commands in android tests
+- 66862b0: Changed the install-skills command to use --editor [your editor] instead of ide specific flags.
+
+### Patch Changes
+
+- 66862b0: Ship skill markdown as a file asset under skills/ instead of inlining via process.env substitution
+- 5a4a5bc: Add spans to mcp and add span output artifact on session terminate tool.
+- 4891204: Fix alignment of step indices on run viewer
+
 ## 0.62.0
 
 ### Minor Changes
