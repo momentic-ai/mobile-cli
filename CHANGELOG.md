@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.63.2
+
+### Patch Changes
+
+- 953296d: Improve mcp trace observability.
+- 54a5a7e: Improve input validation for the open app step
+
 ## 0.63.1
 
 ### Patch Changes
