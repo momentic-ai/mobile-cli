@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.64.0
+
+### Minor Changes
+
+- 0ca53a6: Android soft reset no longer clears app and device caches or device settings
+
 ## 0.63.2
 
 ### Patch Changes
