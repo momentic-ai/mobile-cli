@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.66.0
+
+### Minor Changes
+
+- 5ab30f1: Add setup and teardown sections
+
+### Patch Changes
+
+- 4ec5f84: Fix bug with failure recovery not properly saving retried steps' results to the environment.
+
 ## 0.65.0
 
 ### Minor Changes
