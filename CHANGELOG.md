@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.67.2
+
+### Patch Changes
+
+- 1b75fc3: Fix issue where scroll to failed step would sometimes scroll ancestor scroll container
+
 ## 0.67.1
 
 ### Patch Changes
