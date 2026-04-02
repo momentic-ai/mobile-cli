@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.67.1
+
+### Patch Changes
+
+- 1cb630f: Fix issue where conditional step output in run viewer would cause page error
+
 ## 0.67.0
 
 ### Minor Changes
