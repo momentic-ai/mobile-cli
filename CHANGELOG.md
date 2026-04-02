@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.67.0
+
+### Minor Changes
+
+- 65b7ad9: Add local emulator support for iOS
+- 8869d7b: Added conditional step for editor
+
+### Patch Changes
+
+- 7a46a4f: Retry failed appium commands during Android test execution
+- 7c138eb: UI for changing local iOS device options
+- 21dcfdb: Retry failed appium commands on iOS
+
 ## 0.66.0
 
 ### Minor Changes
