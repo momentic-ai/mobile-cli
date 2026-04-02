@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.67.3
+
+### Patch Changes
+
+- c6ef783: Fix calculation of relative element coordinates within iOS webviews
+
 ## 0.67.2
 
 ### Patch Changes
