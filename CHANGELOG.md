@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.68.0
+
+### Minor Changes
+
+- ba179dc: Fix several SCROLL_TO positioning bugs that caused caches for SCROLL_TO to bust unnecessarily and improve SCROLL_TO performance for both iOS and Android
+- ba179dc: Improve AI Action intelligence by upgrading models and prompts
+
+### Patch Changes
+
+- 243d779: Fix bug where SCROLL_TO sometimes stopped scrolling too early for small containers
+- 243d779: Loosen timeouts for screenshots and page source get calls to account for periods of emulator provider instability
+- ba179dc: Increase default scroll attempts from 5 to 10
+
 ## 0.67.4
 
 ### Patch Changes
