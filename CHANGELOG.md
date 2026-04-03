@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.67.4
+
+### Patch Changes
+
+- e13c020: Fix flags passed to the app start command
+- 184b3b4: Enable element checks for iOS webviews
+
 ## 0.67.3
 
 ### Patch Changes
