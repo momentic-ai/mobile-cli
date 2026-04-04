@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.68.1
+
+### Patch Changes
+
+- 252a97e: Fix iOS bug where scrolls were happening too fast, causing some momentum to remain after scrolling and swiping
+- eef0563: Retry cache resolution until timeout on iOS cached path for smarter waiting
+- ec23fd3: Further increase default scroll attempts to 15
+- 7907503: Make iOS device type a select when configuring local emulator options
+- 7907503: Return a better error message when an invalid device type is specified for local iOS emulators
+
 ## 0.68.0
 
 ### Minor Changes
