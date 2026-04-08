@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.69.0
+
+### Minor Changes
+
+- b4b3fa8: Update editor UI to be single step list panel with output, and floating step editor form
+
+### Patch Changes
+
+- df04bf5: Fix a race condition that caused emulators to be orphaned if the user CTRL+C-ed too quickly after emulator creation
+- 65773a0: Remove unnecessary error logs from local app
+- 65773a0: Stop writing unnecessary fields when creating new tests
+- a392554: Display setup and teardown sections in run viewer
+- b6e232d: Add context pane data for mobile test results in the run viewer
+
 ## 0.68.1
 
 ### Patch Changes
