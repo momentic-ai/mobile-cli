@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.71.1
+
+### Patch Changes
+
+- a6390d8: Add keyboard navigation handler for mobile editor
+- b303346: Prevent unnecessary appium liveness checks
+- 7259435: Improve error collection
+- 782c501: Fix git repo detection to work in repositories with no commits.
+- 51908d6: Use exit code 1 for all test cancellations
+- 2ce4ca3: Add Bitrise CI detection for automatic git metadata extraction
+- 51908d6: Emit correct status when runs fail due to mid-execution timeout
+- 412e5ea: Prevent timeouts when typing really long text
+
 ## 0.71.0
 
 ### Minor Changes
