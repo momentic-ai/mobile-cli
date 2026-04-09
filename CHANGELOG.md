@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.71.0
+
+### Minor Changes
+
+- baf8991: Add traces for AI extract step
+
+### Patch Changes
+
+- 8da3f1b: Improve the momentic-test skill's ability to use variables in Momentic.
+
 ## 0.70.0
 
 ### Minor Changes
