@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.72.0
+
+### Minor Changes
+
+- 75c67b3: Add "Run to" and "Run from" context menu options for steps in the mobile editor to execute from the start of a section to a step, or from a step to the end of a section
+
+### Patch Changes
+
+- aa38559: Ignore .momentic-mcp from globbing
+
 ## 0.71.1
 
 ### Patch Changes
