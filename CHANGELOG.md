@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.70.0
+
+### Minor Changes
+
+- 0fd3520: Store mobile screenshots with the correct png extension
+- 5cfd805: Add support for executing Appium commands on iOS
+
+### Patch Changes
+
+- f39aa3c: iOS screen checks now also inspect webview content using safari scripts
+
 ## 0.69.0
 
 ### Minor Changes
