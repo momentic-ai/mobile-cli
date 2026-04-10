@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.73.0
+
+### Minor Changes
+
+- eb33742: Add iOS video recording support. Videos are automatically captured during test runs and stored in the run attempt assets.
+
+### Patch Changes
+
+- 296e1d7: Address security vulnerabilities
+- 40d3461: Make the platform and version visible with the emulator region for remote emulators.
+- 2cc694f: Fix bug where SCROLL_TO on iOS where repeated cache resolution attempts could cause unnecessary scrolling.
+- 2cc694f: Fix bug where SCROLL_TO could place the element near the bottom of the page where it was covered by the bottom bar
+- 2cc694f: Increase default scroll speed and height
+
 ## 0.72.0
 
 ### Minor Changes
