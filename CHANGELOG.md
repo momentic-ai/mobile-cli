@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.73.1
+
+### Patch Changes
+
+- 66fdd71: Improve observability for mcp traces.
+- 295d49f: Kill App step now dismisses notification overlays before killing the app, retrying up to 5 times
+- 8c5a78b: Properly cancel in-progress runs on sigterm
+
 ## 0.73.0
 
 ### Minor Changes
