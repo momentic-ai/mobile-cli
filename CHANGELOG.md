@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.73.2
+
+### Patch Changes
+
+- 1d986d8: Improve reliability of AI response streaming for OpenAI-based completions
+
 ## 0.73.1
 
 ### Patch Changes
