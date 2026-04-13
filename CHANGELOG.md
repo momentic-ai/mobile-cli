@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.74.0
+
+### Minor Changes
+
+- fff5af6: Add Android video recording support. Screen recordings are now automatically captured during Android test runs on remote emulators.
+- 452974f: Support opt-in native a11y tree for iOS
+
+### Patch Changes
+
+- b22cce8: Convert step editor form inputs to use code mirror to handle template string syntax highlighting
+- a41dea2: Report emulator region on new run results in the run viewer details pane.
+- 4f24aea: Make editor floating step card draggable
+- ef7f299: Change conditionals to show the status of the conditional not the conditional and substeps.
+
 ## 0.73.2
 
 ### Patch Changes
