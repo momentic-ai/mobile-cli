@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.74.1
+
+### Patch Changes
+
+- 7cbb2b5: Improve auth check error messages with actionable guidance
+
 ## 0.74.0
 
 ### Minor Changes
