@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.74.2
+
+### Patch Changes
+
+- 312aec5: Update iOS and Android models to be faster for AI Action
+- 312aec5: Fix error that occurs during OpenAI fallbacks where reasoning summaries would cause fatal message mismatch exceptions
+
 ## 0.74.1
 
 ### Patch Changes
