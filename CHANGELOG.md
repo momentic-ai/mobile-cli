@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.75.0
+
+### Minor Changes
+
+- 49588d5: Add AI Action v3 for Android
+
 ## 0.74.2
 
 ### Patch Changes
