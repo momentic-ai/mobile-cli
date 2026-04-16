@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.75.1
+
+### Patch Changes
+
+- b411490: Fix editor keybindings so that i and e now begin editing the default section of the selected step.
+- df3138a: Exclude more directories from globbing by default
+- 7b02efd: Prevent unintentional exits during test runs
+- c3a6745: Fix default sizing for editor bottom panel
+
 ## 0.75.0
 
 ### Minor Changes
