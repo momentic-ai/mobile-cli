@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.76.0
+
+### Minor Changes
+
+- 923d0b7: Add a --daemon flag to the MCP to enable a background daemon to maintain sessions across separate server invocations. Note: this is not available for windows yet.
+
+### Patch Changes
+
+- fb04242: Reorganize editor step input elements
+
 ## 0.75.1
 
 ### Patch Changes
