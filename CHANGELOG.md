@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.76.1
+
+### Patch Changes
+
+- 7c7aa07: Improve globbing performance
+- 7c7aa07: Exclude dependency directories from config yaml file search
+- 0acb6d7: Fix mcp bug where the project emulator defaults were being overridden when making new mcp sessions. Start session now correctly follows tool input, test, then project config precedence order.
+- 57880bd: Improve iOS cache resolution
+- 99e77ec: Make the daemon not connect to daemons from other cli versions.
+
 ## 0.76.0
 
 ### Minor Changes
