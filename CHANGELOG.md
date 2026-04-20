@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.77.2
+
+### Patch Changes
+
+- 4313b4f: Show AI Action version in run viewer
+
 ## 0.77.1
 
 ### Patch Changes
