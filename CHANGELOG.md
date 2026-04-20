@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.77.0
+
+### Minor Changes
+
+- ce25160: Remove get intial data to instead move the step schema onto the session start tool. Updated the skill to match the new edit procedure.
+
+### Patch Changes
+
+- 6259dbc: Update Run Viewer UI to have resizable panels, floating step info card
+- fbe5a7d: Fix video player hover CSS being hard to read
+
 ## 0.76.1
 
 ### Patch Changes
