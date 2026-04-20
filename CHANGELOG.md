@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.77.1
+
+### Patch Changes
+
+- cc4fcbd: Fix a bug where tests were not shown in the local app UI on Windows
+
 ## 0.77.0
 
 ### Minor Changes
