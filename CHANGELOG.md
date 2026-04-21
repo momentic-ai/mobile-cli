@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.77.3
+
+### Patch Changes
+
+- 10dc30c: Try to restart appium connection if there are too many failures
+
 ## 0.77.2
 
 ### Patch Changes
