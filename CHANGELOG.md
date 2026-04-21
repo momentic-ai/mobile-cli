@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.78.0
+
+### Minor Changes
+
+- 6fcfc99: Improve Android locator prompts and model performance
+
 ## 0.77.3
 
 ### Patch Changes
