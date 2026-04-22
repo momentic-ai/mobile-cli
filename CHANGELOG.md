@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.79.0
+
+### Minor Changes
+
+- cb6678b: Add `assets list` command to list asset channels and tags grouped by platform.
+
+### Patch Changes
+
+- 083ee13: Display iOS syslogs in the mobile editor
+- 2e86c07: Add intellisense to the javascript editor
+- 534e1f8: Upgrade appium dependencies to address security vulnerabilities
+- 6c82d84: Add the ability to pop out the Javascript editor into a larger window
+- 083ee13: Collect syslog logs during iOS test runs
+
 ## 0.78.0
 
 ### Minor Changes
