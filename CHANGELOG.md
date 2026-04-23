@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.79.1
+
+### Patch Changes
+
+- 91253d2: Enable waiting for stability by default for iOS
+- 5bdd51e: Fix edge case where Momentic would give up on scrolling too early for text-only dropdowns
+- 91253d2: Optimize speed of fetching iOS accessibility tree
+
 ## 0.79.0
 
 ### Minor Changes
