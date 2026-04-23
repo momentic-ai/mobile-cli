@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.79.2
+
+### Patch Changes
+
+- 2c77f29: Improve reliability of streamText agents by enabling provider-specific pruning of stateful messages on the client-side and retaining reasoning traces when possible
+- b3f95b9: Remove unnecessary error logs from the console
+- b3f95b9: Ensure emulators are properly cleanup up after cancelled runs
+
 ## 0.79.1
 
 ### Patch Changes
