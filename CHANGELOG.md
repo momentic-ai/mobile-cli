@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.79.3
+
+### Patch Changes
+
+- ac9df82: Filter out noisy "Creating hash file directory" lines from Appium logs
+- ebf509c: Show intellisense for env variables in the Monaco editor based on the current test context
+
 ## 0.79.2
 
 ### Patch Changes
