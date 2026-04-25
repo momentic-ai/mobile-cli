@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.80.0
+
+### Minor Changes
+
+- 5ed5ab4: Increase maximum individual session duration for websocket-based clients like classification and AI action to 5 minutes
+
 ## 0.79.3
 
 ### Patch Changes
