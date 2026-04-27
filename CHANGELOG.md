@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.80.1
+
+### Patch Changes
+
+- c51b3f4: Generate caches for nodes inside webviews on iOS
+- dc5b130: When --api-key falls back to ~/.momentic/auth.json, --server now also defaults to the server URL stored alongside that key, so a wizard login against staging no longer silently sends the staging key to the production server.
+- dc5b130: - `momentic init` now writes only `momentic.config.yaml`; sample module and test scaffolding moved into the `@momentic/wizard` onboarding flow so manual installs stay minimal.
+  - `momentic install-skills` and `momentic-mobile install-skills` are now deprecated. They still work, but prefer `npx skills@latest add momentic-ai/skills` — it auto-detects `.claude/`, `.cursor/`, `.agents/`, `.opencode/`, `.github/copilot/` and lets skill updates ship independently of the CLI.
+  - The CLI now falls back to `~/.momentic/auth.json` (written by `momentic-wizard login`) when `MOMENTIC_API_KEY` isn't set.
+
 ## 0.80.0
 
 ### Minor Changes
