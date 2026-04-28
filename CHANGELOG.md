@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.80.2
+
+### Patch Changes
+
+- fb6bdf0: Upgrade uuid to ^14.0.0, appium to 3.3.1, and node-simctl to ^8.2.0 to fix known security vulnerabilities.
+- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities
+- eec2918: Resolve iOS webview caches
+- 559eb16: Cache git metadata fetches to improve app load performance
+- 1c96b5b: Improve error response message when trying to init multiple emulator sessions to fix the model needing an additional turn to terminate conflicting sessions.
+- ee72ad5: Add support for progress tokens for the mcp when --daemon is enabled, allowing updates messages from tools running on background workers.
+
 ## 0.80.1
 
 ### Patch Changes
