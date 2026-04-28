@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.81.0
+
+### Minor Changes
+
+- b230be2: Add support for iOS MCP start session tool using remote emulators.
+
+### Patch Changes
+
+- bf7acd8: AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
+- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033) via pnpm and npm overrides
+- 230f2bc: Fix AI Action v2 not being able to clear input fields
+- 930c9ee: Fix duplicated settings overlay
+
 ## 0.80.2
 
 ### Patch Changes
