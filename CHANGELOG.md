@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.81.1
+
+### Patch Changes
+
+- 72320ea: iOS - AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
+
 ## 0.81.0
 
 ### Minor Changes
