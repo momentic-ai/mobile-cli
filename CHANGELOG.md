@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.81.2
+
+### Patch Changes
+
+- 5351691: Change the value of redacted env vars to "-" to improve storage efficiency
+- d47df2a: Add available iOS simulator device types to the get artifacts tool output
+- 6476fe4: Add drag handle for step settings card
+- 433395f: When pressing enter for selecting a package, first package will be selected.
+
 ## 0.81.1
 
 ### Patch Changes
