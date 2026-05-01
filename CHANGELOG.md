@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.83.0
+
+### Minor Changes
+
+- a04408e: Support deleting uploaded mobile assets
+
+### Patch Changes
+
+- 2fc0994: Reduced redundant network requests from the local app frontend.
+- a036c08: Speed up local app load times by caching filesystem operations
+- c284376: Align init and upgrade configs with wizard defaults: add useMemory, failure recovery v2.0, and mobile upgrade command
+
 ## 0.82.0
 
 ### Minor Changes
