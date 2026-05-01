@@ -1,5 +1,23 @@
 # momentic-mobile
 
+## 0.82.0
+
+### Minor Changes
+
+- 2cb1630: Added support for local iOS emulators for the start session tool on the mobile mcp.
+- 4dda8de: Add support for the --video flag in the mobile cli.
+- 3de5629: Extend splice tool to support iOS in the mobile mcp.
+- 293002f: Extend the run step tool to iOS emulators.
+- c623608: Add support for preview step on iOS emulators
+
+### Patch Changes
+
+- 44011c1: Better prompting both in the skill and mcp tools for using momentic artifacts and their relative paths.
+- d9f320b: Fix occasional crash that occurred in long Copilot sessions caused by our context pruning logic orphaning tool calls. Improve long-context performance of agents.
+- 5995687: Use the text attribute for text-based caching of native iOS elements
+- 898231c: Fix the authoring guide on the start session to match the expected cli inputs of the mobile platform of the test.
+- 1fb746c: Track test run completion events via PostHog analytics
+
 ## 0.81.2
 
 ### Patch Changes
