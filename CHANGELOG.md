@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.84.1
+
+### Patch Changes
+
+- 583541d: Stream mobile asset uploads from disk instead of buffering the whole file in
+  memory. This avoids OOMs on large builds.
+- 610db75: Update Appium iOS and Android drivers to patch known security vulnerabilities
+
 ## 0.84.0
 
 ### Minor Changes
