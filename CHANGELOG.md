@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.84.0
+
+### Minor Changes
+
+- d40190d: AI action V3 (alpha) is now the recommended version. The version dropdown is labeled "V3 (alpha)" in both the web and mobile editors, with help text explaining when to use V3 vs V2. V2 is described as the previous-generation fallback.
+
+### Patch Changes
+
+- 72ce2d6: Fixed lag when opening "View details" on the tests table — the table no longer re-renders every row on each click.
+
 ## 0.83.1
 
 ### Patch Changes
