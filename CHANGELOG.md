@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.85.1
+
+### Patch Changes
+
+- 5556ee3: Explicitly exit process after successful command execution
+
 ## 0.85.0
 
 ### Minor Changes
