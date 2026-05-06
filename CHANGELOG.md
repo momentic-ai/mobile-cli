@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.88.0
+
+### Minor Changes
+
+- 2ffb125: Fix Android cache resolving to the wrong element when a clickable container's visible label lives in a child view.
+
 ## 0.87.0
 
 ### Minor Changes
