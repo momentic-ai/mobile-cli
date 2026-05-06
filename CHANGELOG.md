@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.87.0
+
+### Minor Changes
+
+- d8fddb6: Improve AI action's ability to use and reason around SCROLL_TO steps and undo state changes after mistakes.
+
 ## 0.86.0
 
 ### Minor Changes
