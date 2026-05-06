@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.86.0
+
+### Minor Changes
+
+- ee94b03: Support adding files to iOS devices
+
+### Patch Changes
+
+- 701ddf7: Show the emulator region that was used in run results.
+- 92c2ec5: Patch security vulnerabilities.
+- 28338d8: Move iOS appium driver app installation to the client side.
+
 ## 0.85.2
 
 ### Patch Changes
