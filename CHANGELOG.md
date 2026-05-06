@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.85.2
+
+### Patch Changes
+
+- 2505fd1: Local results viewer (`cli results view` / `mobile-cli results view`) now
+  renders per-attempt timeline segments for runs that retried. Previously the
+  viewer showed a single bar per run regardless of how many attempts it took;
+  now each attempt appears as its own colored segment with transparent gaps
+  between attempts, matching the cloud run-group page.
+
 ## 0.85.1
 
 ### Patch Changes
