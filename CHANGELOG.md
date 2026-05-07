@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.88.1
+
+### Patch Changes
+
+- f9fb144: Run group timeline now anchors each run's bar at the run group's start time, so the "Waited for" segment is visible for CLI runs (which don't have a queuedAt). Wall time stat also stays accurate when the latest run finishes after the run group's recorded finishedAt.
+- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+- d50b82a: Clear the assertion's cache when failure recovery succeeds, so a recovered run no longer leaves a stale "false" memory trace that could cause future runs to incorrectly fail.
+- b6f66b1: Address edge case caused by Chrome Dev Tools where some images would have no accessibility role, causing AI Assertion and locator inconsistencies
+
 ## 0.88.0
 
 ### Minor Changes
