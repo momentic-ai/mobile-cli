@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 0.89.0
+
+### Minor Changes
+
+- 3d2f9b3: Added `email.create()` for provisioning fresh ephemeral email inboxes from inside a test at runtime. The returned inbox auto-expires after 24h.
+- 55f156c: Added `sms.lease()` and `sms.release()` for checking a free number out of your org's pool for the duration of a test. See [SMS docs](https://docs.momentic.ai/integrations/sms#sms-lease-and-sms-release).
+- 7560379: Update mobile editor and run viewer to use two panel layout
+- 8c45334: Make the results path optional in `momentic results upload`, defaulting to the same `test-results` directory that `momentic run` writes to.
+
+### Patch Changes
+
+- eace3c1: Prevent apps from being closed when appium server is restarted
+- 9de4134: Hide the `--api-key` default value in `--help` output so the CLI no longer prints the API key from `~/.momentic/auth.json`.
+- 404e57a: Add absolute pixel coordinate targeting for the tap step
+- eba24ff: Step tooltips on the video player timeline and resource usage charts now show "JavaScript" instead of the raw code for JavaScript steps, and the timeline tooltips dismiss when you move off the step rather than staying pinned open while hovering the tooltip itself.
+
 ## 0.88.2
 
 ### Patch Changes
