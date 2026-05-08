@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.89.1
+
+### Patch Changes
+
+- 21092a5: Fix issue with run viewer panels overflowing for some tests
+- c6caa20: Display further details about conditional step configuration in run viewer
+- 8f9463c: Fix issue where opening javascript editor in larger view would not correctly hydrate code
+- 746430a: Fix AI ACTION v3 step incorrectly failing when no actions were needed to achieve its goal.
+
 ## 0.89.0
 
 ### Minor Changes
