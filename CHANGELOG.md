@@ -40,7 +40,7 @@
 ### Patch Changes
 
 - f9fb144: Run group timeline now anchors each run's bar at the run group's start time, so the "Waited for" segment is visible for CLI runs (which don't have a queuedAt). Wall time stat also stays accurate when the latest run finishes after the run group's recorded finishedAt.
-- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+- c358018: Improve reliability of usage telemetry.
 - d50b82a: Clear the assertion's cache when failure recovery succeeds, so a recovered run no longer leaves a stale "false" memory trace that could cause future runs to incorrectly fail.
 - b6f66b1: Address edge case caused by Chrome Dev Tools where some images would have no accessibility role, causing AI Assertion and locator inconsistencies
 
@@ -82,7 +82,7 @@
 
 ### Patch Changes
 
-- 5556ee3: Explicitly exit process after successful command execution
+- 5556ee3: Fix CLI sometimes hanging after a successful run.
 
 ## 0.85.0
 
@@ -92,7 +92,7 @@
 
 ### Patch Changes
 
-- 4cf851c: Migrate workspace packages from `main` to `exports` and enable tree-shaking in tsup bundles. Adds `sideEffects: false` to internal packages so esbuild can drop dead code from CLI builds.
+- 4cf851c: Reduce CLI bundle size for faster installs.
 - 81c9920: Patch transitive `axios` dependency to 1.15.2 to address a critical Prototype Pollution vulnerability ([CVE-2026-42264](https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750)).
 
 ## 0.84.1
@@ -111,13 +111,13 @@
 
 ### Patch Changes
 
-- 72ce2d6: Fixed lag when opening "View details" on the tests table — the table no longer re-renders every row on each click.
+- 72ce2d6: Fixed lag when opening "View details" on the tests table.
 
 ## 0.83.1
 
 ### Patch Changes
 
-- c5b52d1: Embed Pylon support chat widget in the local app. The signed-in user's email is used to identify them, with HMAC-based identity verification when enabled on the server.
+- c5b52d1: Add in-app support chat widget to the local app.
 - 4f9519e: The setup wizard now adds the sample environment(s) the scaffolded test depends on, even when a `momentic.config.yaml` already exists, so the very first run no longer fails with a missing-environment error. Mobile projects also get a sample environment so it's clear how to configure variables. Failures during the sample test, the editor-skills install, and the CLI install now show the full underlying output instead of being truncated to the last few lines. CLI command help, log messages, and READMEs now refer to the "Momentic dashboard" instead of "Momentic Cloud".
 
 ## 0.83.0
@@ -144,17 +144,17 @@
 
 ### Patch Changes
 
-- 44011c1: Better prompting both in the skill and mcp tools for using momentic artifacts and their relative paths.
-- d9f320b: Fix occasional crash that occurred in long Copilot sessions caused by our context pruning logic orphaning tool calls. Improve long-context performance of agents.
+- 44011c1: Improve agent prompting for working with Momentic artifacts and their relative paths.
+- d9f320b: Fix occasional crash in long Copilot sessions and improve long-context performance of agents.
 - 5995687: Use the text attribute for text-based caching of native iOS elements
 - 898231c: Fix the authoring guide on the start session to match the expected cli inputs of the mobile platform of the test.
-- 1fb746c: Track test run completion events via PostHog analytics
+- 1fb746c: Improve telemetry for test run completion events.
 
 ## 0.81.2
 
 ### Patch Changes
 
-- 5351691: Change the value of redacted env vars to "-" to improve storage efficiency
+- 5351691: Display redacted env var values as "-" in the run viewer.
 - d47df2a: Add available iOS simulator device types to the get artifacts tool output
 - 6476fe4: Add drag handle for step settings card
 - 433395f: When pressing enter for selecting a package, first package will be selected.
@@ -163,7 +163,7 @@
 
 ### Patch Changes
 
-- 72320ea: iOS - AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
+- 72320ea: iOS - AI actions now recover gracefully when the AI model returns without explicitly finishing the action.
 
 ## 0.81.0
 
@@ -173,8 +173,8 @@
 
 ### Patch Changes
 
-- bf7acd8: AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
-- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033) via pnpm and npm overrides
+- bf7acd8: AI actions now recover gracefully when the AI model returns without explicitly finishing the action.
+- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033).
 - 230f2bc: Fix AI Action v2 not being able to clear input fields
 - 930c9ee: Fix duplicated settings overlay
 
@@ -182,12 +182,12 @@
 
 ### Patch Changes
 
-- fb6bdf0: Upgrade uuid to ^14.0.0, appium to 3.3.1, and node-simctl to ^8.2.0 to fix known security vulnerabilities.
-- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities
+- fb6bdf0: Upgrade internal dependencies to fix known security vulnerabilities.
+- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities.
 - eec2918: Resolve iOS webview caches
 - 559eb16: Cache git metadata fetches to improve app load performance
-- 1c96b5b: Improve error response message when trying to init multiple emulator sessions to fix the model needing an additional turn to terminate conflicting sessions.
-- ee72ad5: Add support for progress tokens for the mcp when --daemon is enabled, allowing updates messages from tools running on background workers.
+- 1c96b5b: Improve error response when trying to initialize multiple emulator sessions, so agents can recover without an extra retry.
+- ee72ad5: MCP server now streams progress updates when `--daemon` is enabled, so long-running tools can report incremental status.
 
 ## 0.80.1
 
@@ -216,9 +216,9 @@
 
 ### Patch Changes
 
-- 2c77f29: Improve reliability of streamText agents by enabling provider-specific pruning of stateful messages on the client-side and retaining reasoning traces when possible
+- 2c77f29: Improve reliability of AI agent streaming responses while preserving reasoning context where possible.
 - b3f95b9: Remove unnecessary error logs from the console
-- b3f95b9: Ensure emulators are properly cleanup up after cancelled runs
+- b3f95b9: Ensure emulators are properly cleaned up after cancelled runs
 
 ## 0.79.1
 
@@ -270,7 +270,7 @@
 
 ### Minor Changes
 
-- ce25160: Remove get intial data to instead move the step schema onto the session start tool. Updated the skill to match the new edit procedure.
+- ce25160: MCP: Consolidate session and step schema retrieval into the session start tool. Updated the `momentic-test` skill to match.
 
 ### Patch Changes
 
@@ -334,7 +334,7 @@
 
 ### Patch Changes
 
-- b22cce8: Convert step editor form inputs to use code mirror to handle template string syntax highlighting
+- b22cce8: Improve template string syntax highlighting in step editor form inputs
 - a41dea2: Report emulator region on new run results in the run viewer details pane.
 - 4f24aea: Make editor floating step card draggable
 - ef7f299: Change conditionals to show the status of the conditional not the conditional and substeps.
@@ -343,7 +343,7 @@
 
 ### Patch Changes
 
-- 1d986d8: Improve reliability of AI response streaming for OpenAI-based completions
+- 1d986d8: Improve reliability of AI response streaming.
 
 ## 0.73.1
 
@@ -445,7 +445,7 @@
 ### Patch Changes
 
 - 243d779: Fix bug where SCROLL_TO sometimes stopped scrolling too early for small containers
-- 243d779: Loosen timeouts for screenshots and page source get calls to account for periods of emulator provider instability
+- 243d779: Loosen timeouts for screenshots and page source on slower emulator providers
 - ba179dc: Increase default scroll attempts from 5 to 10
 
 ## 0.67.4
@@ -535,7 +535,7 @@
 
 ### Patch Changes
 
-- 66862b0: Ship skill markdown as a file asset under skills/ instead of inlining via process.env substitution
+- 66862b0: Ship skill markdown as separate file assets under `skills/` for easier inspection.
 - 5a4a5bc: Add spans to mcp and add span output artifact on session terminate tool.
 - 4891204: Fix alignment of step indices on run viewer
 
@@ -638,7 +638,7 @@
 ### Patch Changes
 
 - 3d70ff6: Harden the mcp to prefer remote emulators even more.
-- 8d41b69: Tune the session creation tool to default to the test's default emulator then primarily remote emulators. The model using the mcp tool should only use local emulators when directly requested.
+- 8d41b69: Mobile MCP now defaults to the test's emulator settings, then remote emulators, and only uses local emulators when explicitly requested.
 - 77924aa: Improve the session start tool to return the installed applications
 - 77924aa: Improve the get environment variables tool to also return a file link to an installed applications report.
 - 77924aa: Auto filter the available applications in IOS tests.
@@ -656,7 +656,7 @@
 - 4f3602f: Add labels to the get attributes channels file artifact output and improve descriptions for more accurate test creation.
 - 0515419: Update the skill to not push through errors when the session has clear errors.
 - f6de50e: Improve the skill to prevent the model from over using javascript steps for actions native momentic steps already perform.
-- 5fa34ba: Tune tool descriptions to encorage better model behavior when editing.
+- 5fa34ba: Tune tool descriptions to encourage better agent behavior when editing.
 
 ## 0.54.0
 
@@ -674,7 +674,7 @@
 
 ### Patch Changes
 
-- a5c98fc: Upgrade the mobile mcp get attributes tool to return the availableChannels for the model to select for test creation.
+- a5c98fc: Mobile MCP `get attributes` tool now returns `availableChannels` for agents to use when creating tests.
 
 ## 0.53.0
 
@@ -689,7 +689,7 @@
 - 889afe5: Update run viewer details panel styles
 - de63f5c: Improve response message to the model when cache entries fail to save inside the mcp's splice tool.
 - e749e10: Sentence case step type names (AI check, Element check, Page check) across UI labels, error messages, and agent prompts
-- d8d300e: Change the mcp step parser to accept --_-fraction instead of --_-percentage to fix the misnomer.
+- d8d300e: MCP step inputs now use `*-fraction` instead of `*-percentage` for clarity.
 
 ## 0.52.1
 
@@ -718,7 +718,7 @@
 
 ### Patch Changes
 
-- da6baed: Display the actual connected limbar region in the mobile editor device preview
+- da6baed: Display the actual connected emulator region in the mobile editor device preview
 - 9164f71: Filter channels and tags by platform in edit mobile test options dialog
 - c22e44c: Split asset details into separate Channel and Tag sections
 - 4d89166: Exclude failure_section tag from buildkite JSON report for non-failed tests
@@ -743,7 +743,7 @@
 
 ### Patch Changes
 
-- 049e435: Fix Open App packages input requiring two clicks to type by preventing Radix Popover from stealing focus on open
+- 049e435: Fix Open App packages input requiring two clicks to type
 
 ## 0.49.0
 
@@ -779,13 +779,13 @@
 - 1d46d33: Speed up code paths that fetch Git metadata for the current user and branch before the test editor opens
 - a3bc4b2: Prevent soft reset during ongoing execution on mobile
 - fb80f3d: Update display of Add File step output directory
-- ce4dd29: Fix soft reset killing WebDriverAgent and Appium apps on iOS
+- ce4dd29: Fix soft reset killing internal test driver apps on iOS
 
 ## 0.47.0
 
 ### Minor Changes
 
-- 1098b96: enable ios ai action support
+- 1098b96: Enable iOS AI action support
 
 ## 0.46.1
 
@@ -889,7 +889,7 @@
 ### Patch Changes
 
 - 0e401fb: Support clear content for iOS type steps
-- 45b4d64: Add iterations and tapDelayMs support to iOS tap performer
+- 45b4d64: Add iterations and tap delay support to iOS tap steps
 
 ## 0.39.2
 
@@ -973,7 +973,7 @@
 
 ### Patch Changes
 
-- 43e9d4d: Add more logger context (orgId, parentStepIdChain, platform) to mobile step cache eviction log messages
+- 43e9d4d: Improve internal logging for mobile step cache eviction
 
 ## 0.36.3
 
@@ -1109,7 +1109,7 @@
 
 ### Patch Changes
 
-- 74fd5f5: Fix use-editor-state getUniqueId call
+- 74fd5f5: Fix internal editor state bug
 - c41dd02: Fix caches not saving for mobile tests run on the cli
 - b3783ec: Fix issue where editor was saved when first loaded with no changes
 
@@ -1339,7 +1339,7 @@
 
 ### Patch Changes
 
-- ee96a70: Preserve test execution status and traces during background data refetches
+- ee96a70: Preserve test execution status and traces when data refreshes in the background
 
 ## 0.16.2
 
@@ -1435,7 +1435,7 @@
 
 ### Patch Changes
 
-- 9fdae76: Fix issue with hanlding numerical values in DOM processing
+- 9fdae76: Fix issue with handling numerical values in DOM processing
 
 ## 0.12.0
 
