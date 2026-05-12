@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.90.0
+
+### Minor Changes
+
+- 0a2767d: Extend MCP to support iOS module creation.
+
+### Patch Changes
+
+- 65418b2: Fix Android module steps so reusing the same module no longer overwrites earlier inputs, and require all non-defaulted parameters to be set when inserting a module.
+
 ## 0.89.2
 
 ### Patch Changes
