@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.90.1
+
+### Patch Changes
+
+- 063d5c3: Improve step search relevance.
+- e72d317: Add cmd/ctrl+z and cmd/ctrl+shift+z keyboard shortcuts for undo and redo in the mobile editor
+- 11e7140: Fix "(intermediate value).env is not a function" crash on startup that could occur in some package manager layouts.
+
 ## 0.90.0
 
 ### Minor Changes
