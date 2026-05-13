@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.92.0
+
+### Minor Changes
+
+- e2dbb11: Allow disabling of cache for relevant step types through the CLI and MCP
+
+### Patch Changes
+
+- 2a83857: Avoid CLI crash on startup when local diagnostics telemetry initialization fails
+
 ## 0.91.0
 
 ### Minor Changes
