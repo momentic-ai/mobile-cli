@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.93.0
+
+### Minor Changes
+
+- b287497: Enable the mcp's splice and run step to work with setup and teardown sections for both iOS and Android tests.
+
+### Patch Changes
+
+- 0128aa9: Adding module parameter inputs should now show auto complete for each parameter option added
+
 ## 0.92.1
 
 ### Patch Changes
