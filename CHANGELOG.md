@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.92.1
+
+### Patch Changes
+
+- a9355c9: Improve failure recovery for failures that happen inside a module in a test's setup or teardown steps — the recovery now considers the surrounding setup/teardown steps as context instead of just the failed module's inner steps.
+
 ## 0.92.0
 
 ### Minor Changes
