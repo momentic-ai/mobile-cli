@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.90.2
+
+### Patch Changes
+
+- f23b4e2: Fail fast with a clear error if connecting to a remote iOS or Android emulator stalls, instead of hanging the run indefinitely.
+
 ## 0.90.1
 
 ### Patch Changes
