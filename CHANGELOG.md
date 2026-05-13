@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.91.0
+
+### Minor Changes
+
+- 341994e: Editor supports drag and drop in and out of conditionals and modules
+
+### Patch Changes
+
+- d509349: Fix issue where resizing editor and run viewer stacked panels would trap element focus and prevent step keyboard navigation
+- a1f29d3: Fix mobile editor not clearing the Target element field on a Type step
+
 ## 0.90.2
 
 ### Patch Changes
