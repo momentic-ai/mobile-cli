@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.93.1
+
+### Patch Changes
+
+- c1e6c6f: `momentic app` and `momentic-mobile app` now show a clean startup banner with the local URL and version. Update-available notices are shown as a boxed message and skipped in CI / non-TTY shells. List commands (`momentic list`, `momentic-mobile list`, `momentic quarantine list`) are now safe to pipe — only test paths go to stdout. `momentic-mobile` now also checks for new releases on startup.
+- 41bbc60: Fix run viewer video player flickering selected step back to its parent during gaps between substeps in a module or conditional.
+- 9dbc7e0: Fix unexpected error when a directory being written to doesn't already exist.
+- 45e126e: Fix Pylon chat support widget not appearing in the local app sidebar
+- c1e6c6f: `momentic-mobile run` now prints the list of scheduled tests before the run starts. Wizard falls back to plain-text logging when stdout is not a TTY.
+- 943797f: Fix zod4 external dependency issue
+
 ## 0.93.0
 
 ### Minor Changes
