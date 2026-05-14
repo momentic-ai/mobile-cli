@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.94.0
+
+### Minor Changes
+
+- 2fcf445: Highlight where interactions happened for mobile runs
+
 ## 0.93.1
 
 ### Patch Changes
