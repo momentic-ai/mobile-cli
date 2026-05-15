@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 0.95.0
+
+### Minor Changes
+
+- 3f963e8: Add a `momentic_test_get` MCP tool that returns a fully resolved test by id or path, including stable step ids and parent chains.
+
+### Patch Changes
+
+- 1d8a758: Do not fail the run when archiving artifacts is blocked by a transient file lock on Windows (OneDrive sync, antivirus).
+- ec59187: Move the test output to respect your agents output to file or inline for mcp.
+- e1daa0c: `consoleLogger` now writes `.error` and `.warn` output to stderr while `.info`, `.success`, `.debug`, and other variants continue writing to stdout, so `momentic run > out.log 2> err.log` cleanly separates progress from errors. `--log-level error` now silences `.success`, `.dimmed`, `.bold`, `.underline`, and `.grey` decorative variants as users expect.
+- 4f2eb35: Improve schema validation performance and error messages
+- 0e5015a: `momentic run` and `momentic-mobile run` now print a two-line summary banner at the top (CLI version, Node version, project, test count, shard). Per-test status badges fall back to plain ASCII `[PASS]` / `[FAIL]` on terminals without truecolor + unicode + TTY, and completed status rows no longer carry the running-progress counter.
+
 ## 0.94.0
 
 ### Minor Changes
