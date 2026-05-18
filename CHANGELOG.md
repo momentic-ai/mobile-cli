@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.96.0
+
+### Minor Changes
+
+- 7d6c2a6: Show screenshots of targeted element in mobile trace steps side panel
+- 25a0f2e: Show YAML code pointer in failure summary
+- aebb86e: Add `--reporter` flag to `momentic run` and `momentic-mobile run`. Pass multiple times to combine reporters (e.g. `--reporter=list --reporter=junit`); file reporters write to `--reporter-dir`. Cloud run URLs are now clickable in supporting terminals, and end-of-run output is quieter overall.
+
+### Patch Changes
+
+- 1b6ccf9: Identify authenticated CLI users to product analytics for better support and self-serve activation diagnostics.
+
 ## 0.95.0
 
 ### Minor Changes
