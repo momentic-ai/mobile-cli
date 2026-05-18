@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.96.1
+
+### Patch Changes
+
+- 0271c0c: Fix a bug that was causing iOS logs to either not appear or be extremely noisy"
+- 97c4c6a: Fix long test titles overflowing and making attempt dropdown inaccessible
+- 1f39581: Group assets page by channel and platform and add search.
+- 0b544ca: Reject empty or whitespace-only --channel and --tag values when managing mobile assets
+
 ## 0.96.0
 
 ### Minor Changes
