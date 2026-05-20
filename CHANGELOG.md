@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.96.2
+
+### Patch Changes
+
+- 160a381: Restore aggressive soft reset on Android so it logs users out and clears app data
+- 42c2364: Fix issue where changing editor panel layout would cause emulator to reload
+- 24c5ca0: Fix a crash that could occur when opening the "Create mobile test" or "Edit mobile test options" dialogs if any uploaded Limbar asset had an empty channel or tag.
+- 7f62db3: Fix issue where step panel closed when clicking in the device preview
+
 ## 0.96.1
 
 ### Patch Changes
