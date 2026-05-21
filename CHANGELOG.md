@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.96.4
+
+### Patch Changes
+
+- 358fa75: Improve the skills guidance in choosing between AI actions and native steps.
+- 6ace1cb: Fix AI Action v3 not appearing in the mobile editor
+- 358fa75: Improve the step authoring guide for model's interaction with AI ACTION steps.
+
 ## 0.96.3
 
 ### Patch Changes
