@@ -1,5 +1,24 @@
 # momentic-mobile
 
+## 0.97.0
+
+### Minor Changes
+
+- 4a5da36: `momentic upgrade` and `momentic-mobile upgrade` now migrate existing projects to the v2 file format end to end. Each command installs the latest matching CLI release, flips the project file format to v2, refreshes the recommended agent configuration while preserving any pinned sub-versions, and rewrites every legacy test and module YAML through the v2 serializer. Files already in v2 are skipped, and a new `--dry-run` flag previews the migration without writing anything to disk. The narrower `momentic migrate v2-format` and `momentic-mobile migrate v2-format` commands are now publicly documented as the file-only path -- use them when you want to rewrite just the YAML files without any other config changes. The `lint`, `upgrade`, and `migrate` commands now have CLI-reference pages on the docs site for both `momentic` and `momentic-mobile`.
+- 9080050: Scaffold new projects in the simplified v2 file format. `momentic init`, `momentic-mobile init`, and `@momentic/wizard` now create configs with `fileFormat: v2` and emit v2 sample tests. When the wizard finds an existing `momentic.config.yaml`, it stops and points you at `momentic upgrade` / `momentic-mobile upgrade` so the existing project can be brought to the latest format on its own.
+
+### Patch Changes
+
+- 90e0461: Patch critical shell-quote command injection vulnerability in transitive Appium dependencies.
+- 82c5112: Reduce noise in v2 YAML output by omitting optional fields that match their runtime default (e.g. `pressEnter: false` on `type`, `skipped: false` on any step).
+- d1f0b11: Surface a clear permission-denied error when deleting a folder is blocked by the operating system (e.g. macOS system-protected folders), instead of failing with a generic crash.
+- d241da5: Local run viewer now preserves sidebar and panel sizes when the window is resized.
+- a8810a5: MCP prefers AI Action v3 for web/android when creating AI Action steps
+- f6d5e31: Show a clearer, user-facing error when a `press`, `keyDown`, or `keyUp` step is given an invalid key name (e.g. `Esc` instead of `Escape`).
+- 71de7b1: Emit detailed diagnostic traces for AI Action steps when running with --share-diagnostics.
+- 9e34feb: Improve AI model provider routing reliability for failure-recovery, locator, and assertion steps. Run metadata now includes a schema version so future migrations can be applied automatically.
+- e9ede0c: Add ability to drag and drop between editor step list sections
+
 ## 0.96.4
 
 ### Patch Changes
