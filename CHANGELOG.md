@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.97.1
+
+### Patch Changes
+
+- b2f7d66: Cancelled runs (from `--timeout-minutes`, `SIGINT`, `SIGTERM`, etc.) now print their run URL and cancellation reason in the final summary, alongside failed runs — so any cancelled run can be opened in the run viewer with one click.
+- 4b0f641: When sharding (`--shard-count` or `--shard-index` > 1), the post-run output now prints a `merge shards:` instruction instead of an `after upload:` run-group URL. The per-shard run group is replaced after the merge step in CI, so the original link was misleading.
+
 ## 0.97.0
 
 ### Minor Changes
