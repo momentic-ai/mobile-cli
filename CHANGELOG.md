@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.97.3
+
+### Patch Changes
+
+- af0d534: Add ability to run selected step in editor using Cmd+Shift+Enter
+
 ## 0.97.2
 
 ### Patch Changes
