@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.97.2
+
+### Patch Changes
+
+- 068d985: Javascript step on run viewer can now be viewed in larger window
+- ccaa6ad: Add ability to delete multiple steps at once in the editor with multiselect
+
 ## 0.97.1
 
 ### Patch Changes
