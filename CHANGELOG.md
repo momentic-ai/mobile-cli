@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.98.0
+
+### Minor Changes
+
+- 0657473: Use knowledge base context for result classification
+- b5f8fea: Ungate public documentation and CLI commands for the simplified format migration
+
+### Patch Changes
+
+- 452a176: Show `[recovered]` next to each test in the live results when failure recovery successfully rescued the run.
+
 ## 0.97.3
 
 ### Patch Changes
