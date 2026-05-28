@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.99.0
+
+### Minor Changes
+
+- d209b5c: Add knowledge base access to locator agent
+
+### Patch Changes
+
+- 4b3dec4: Patch security vulnerabilities
+- 5a4e16e: Improve target cache reliability so that caches are less likely to resolve to the wrong element.
+- 4237e96: Fix duplicate test action so conditional step IDs are regenerated alongside other step IDs.
+
 ## 0.98.0
 
 ### Minor Changes
