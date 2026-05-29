@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.102.0
+
+### Minor Changes
+
+- 5cd341c: Local iOS simulator runs now target the latest installed iOS runtime by default instead of a fixed version, with a new --local-ios-version flag to target a specific runtime.
+- 567eea4: Add `login` and `logout` commands to sign in with your Momentic account and save an API key
+
 ## 0.101.0
 
 ### Minor Changes
