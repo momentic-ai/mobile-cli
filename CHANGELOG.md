@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.101.0
+
+### Minor Changes
+
+- b1e98d6: Include citations to knowledge base entries in trace
+
+### Patch Changes
+
+- b0dd0c5: Update dependencies to resolve a security vulnerability.
+- 2c64539: Fix the local mobile app's file browser showing an empty list of tests and modules
+- 9e657df: Test runs no longer exit with a non-zero status when the only failures are classified as warn.
+
 ## 0.100.0
 
 ### Minor Changes
