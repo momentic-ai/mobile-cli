@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.100.0
+
+### Minor Changes
+
+- 2353087: Add `--skip-quarantined` and `--only-quarantined` flags to the mobile CLI, matching the web CLI. Use `--skip-quarantined` to exclude quarantined tests from a run, or `--only-quarantined` to run just the quarantined tests.
+
+### Patch Changes
+
+- 142efe7: Add `momentic_test_reload` to the mobile MCP server so external agents can refresh an active session's in-memory v2 mobile test state after manual YAML edits without restarting the session.
+- 2cf9721: Fix a bug where `--only-quarantined` stopped reporting exit code 1 for failures.
+- 779f393: Add cancel button to run individual step button in editor
+
 ## 0.99.0
 
 ### Minor Changes
