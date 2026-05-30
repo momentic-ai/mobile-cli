@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.102.1
+
+### Patch Changes
+
+- aada171: Lint validation errors are now shown ESLint/Vale-style — `line:col  error  message  location` — with a codeframe (line numbers, `>` marker, and surrounding context) pointing at the exact line in your test/module YAML, matching the style of the run-failure trace. Unreadable Zod messages were replaced with actionable ones: invalid IDs, `coords`, and mobile percent values now say what's expected instead of dumping a raw regex or `Invalid input`. Affects `momentic lint`, `momentic checks duplicate-ids`, and the preflight checks before `run`/`app`.
+- 24ce328: Show a clear, actionable message telling you to run install-browsers when a run fails because the required browser executables aren't installed, instead of a raw Playwright error.
+
 ## 0.102.0
 
 ### Minor Changes
