@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.103.0
+
+### Minor Changes
+
+- 720a3cb: Add Antigravity to the coding agents the onboarding wizard can wire Momentic into
+
+### Patch Changes
+
+- 2fed53f: After `init`, print accurate next steps (install editor skills, wire up the Momentic MCP, open the local editor, and docs) instead of pointing at the onboarding wizard, which does nothing once a project is already initialized
+
 ## 0.102.1
 
 ### Patch Changes
