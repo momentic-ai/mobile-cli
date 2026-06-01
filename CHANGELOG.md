@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.103.1
+
+### Patch Changes
+
+- b251c6e: Ctrl+C now immediately cancels the CLI while it is checking your API key or resolving the project config.
+
 ## 0.103.0
 
 ### Minor Changes
