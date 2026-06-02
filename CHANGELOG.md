@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.103.2
+
+### Patch Changes
+
+- 5a4d0e8: Speed up mobile SCROLL_TO steps when the target is already visible or near its cached position, and stop the post-resolve correction from drifting the cached scroll distance when the scroll container is already at its extent.
+- d505b14: Fix issue with editor test options dialog save button being disabled with valid form info
+- a19d30d: Improve agent assertion usage to reduce unnecessary settings and brittle checks
+
 ## 0.103.1
 
 ### Patch Changes
