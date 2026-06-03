@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.105.0
+
+### Minor Changes
+
+- 1db894b: Enable AI Action v3 for iOS tests, so iOS AI actions plan the flow up front, cache resolved steps, and self-heal on failure like Android.
+
 ## 0.104.1
 
 ### Patch Changes
