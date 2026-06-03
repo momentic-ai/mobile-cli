@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.104.1
+
+### Patch Changes
+
+- 4ea60ee: fix mobile device preview in Firefox
+
 ## 0.104.0
 
 ### Minor Changes
