@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.104.0
+
+### Minor Changes
+
+- 48d6880: Add knowledge base access to assertion agent
+
+### Patch Changes
+
+- 4c792b1: Improvements for display of traces
+
 ## 0.103.2
 
 ### Patch Changes
