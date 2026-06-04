@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.105.1
+
+### Patch Changes
+
+- 8f123ee: Add keybindings for adding steps after (o) and before (shift+o) selected step in editor
+- 8c87b5a: Fix mobile tap steps that could fail at runtime with a tap delay error after changing the tap type from double/triple back to single tap or long press.
+
 ## 0.105.0
 
 ### Minor Changes
