@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.105.2
+
+### Patch Changes
+
+- 24811c5: The run viewer now shows a "Failure recovery not eligible" callout in the step list when a failed step could not be recovered, with the short reason inline.
+- 4b899f8: Fix "Module is no longer on disk" error that could block saving right after creating a module from selected steps in the mobile editor. New modules are now created alongside the test that uses them.
+- 527bd09: Add keyboard shortcut to delete steps (backspace)
+- a01eb83: Quieter terminal output when starting the mobile editor and running tests: the startup preflight no longer prints a redundant lint success message.
+- 83729f9: Fix shift to also respect j and k in the editor for selecting, shift j and k now mirrors shift down and up arrows.
+
 ## 0.105.1
 
 ### Patch Changes
