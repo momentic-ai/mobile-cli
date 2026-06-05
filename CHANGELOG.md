@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.105.3
+
+### Patch Changes
+
+- cc1d1a1: Show clear messages for missing, moved, or conflicting module files instead of unexpected errors.
+- 6354b9f: Add indexes to step list in the editor
+
 ## 0.105.2
 
 ### Patch Changes
