@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 0.106.0
+
+### Minor Changes
+
+- 9b3494b: Add knowledge base access to failure recovery agent
+
+### Patch Changes
+
+- 39ffd14: Update bundled dependencies to address a critical security vulnerability.
+- d1398fa: Fix duplicating a step in the editor producing a duplicate command ID that failed the duplicate-IDs check on v1-format projects
+- bd630fd: Fixed iOS Type steps silently succeeding when the system keyboard never opened after tapping the target (e.g. typing into a Safari web view search box behind a dismissable overlay). The step now re-taps the target to bring up the keyboard, and only if it still never opens does it fail with a recoverable error instead of falsely reporting success.
+
 ## 0.105.3
 
 ### Patch Changes
