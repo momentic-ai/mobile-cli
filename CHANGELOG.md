@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 0.106.1
+
+### Patch Changes
+
+- 84e2094: Add a folder picker when creating a module in the mobile editor, so you can choose where the new module is saved (defaults to the current test's folder)
+- 9dda778: Fix issue where panels would not persist layout through certain interactions
+- fd0bea3: Clearer error when opening an app that isn't installed on the device, distinguishing a missing app from one with no launchable activity
+- 6b0e305: Improve reliability of installing apps on iOS devices
+
 ## 0.106.0
 
 ### Minor Changes
