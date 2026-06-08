@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 0.107.0
+
+### Minor Changes
+
+- f3bbe94: Show inline screenshots in the mobile editor's live AI Action v3 agent trajectory as it runs
+
+### Patch Changes
+
+- 17a0807: Show a clear, actionable error when renaming or creating a test with a name that already exists, instead of an unexpected internal error
+- 0f24f57: Don't block iOS test runs when Android tooling (Java, ANDROID_HOME, ADB) is missing; these are now non-blocking warnings
+- f3bbe94: Fix bug where iOS AI Action v3 trajectory was not shown in the run viewer
+- dc37480: Add diagnostic tracing for AI actions to improve observability of mobile test runs
+- fd3af98: When the mobile driver fails to start, the underlying Appium startup error (for example, an unsupported Node.js version) is now shown instead of a generic failure message.
+- c9227e5: Fix the step editor panel sometimes not appearing when selecting a step in the mobile editor after the panel had been resized closed
+- 74aa15c: Show a clear, actionable message instead of an unexpected crash when sign-in credentials can't be saved due to file permissions
+
 ## 0.106.2
 
 ### Patch Changes
