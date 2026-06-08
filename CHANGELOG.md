@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.106.2
+
+### Patch Changes
+
+- d1eb26a: Fix issue where empty folders would not show up when choosing folder to create or move a module
+
 ## 0.106.1
 
 ### Patch Changes
