@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.108.0
+
+### Minor Changes
+
+- b04a91c: Add ability to drag and drop multiple steps at once in the mobile editor
+
 ## 0.107.0
 
 ### Minor Changes
