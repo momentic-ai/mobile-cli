@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.109.0
+
+### Minor Changes
+
+- 269ed59: AI Action V3 mobile steps now support optional pre-conditions and post-conditions.
+- a15bcf0: Add a --share-diagnostics flag to share local mobile run diagnostics via OpenTelemetry
+
+### Patch Changes
+
+- 37aaf86: Show the failure reason for each failed test in `momentic-mobile run` output, making local runs easier to debug
+
 ## 0.108.0
 
 ### Minor Changes
