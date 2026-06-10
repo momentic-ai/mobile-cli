@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.109.1
+
+### Patch Changes
+
+- 218eff3: Improve reliability of AI Action v3 mobile healing
+- 6d92514: Show a clear, file-specific error when a test or module file contains invalid YAML, instead of an unexpected crash.
+
 ## 0.109.0
 
 ### Minor Changes
