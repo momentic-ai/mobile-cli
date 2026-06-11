@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.109.3
+
+### Patch Changes
+
+- 12a53df: Show clearer error message when runs are blocked due to usage limits
+- 5a0aa97: Mobile run details now show the asset tag the test ran with, including runs started from a channel without an explicit tag.
+
 ## 0.109.2
 
 ### Patch Changes
