@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.109.2
+
+### Patch Changes
+
+- a1b1567: Show individual AI Action sub-steps in the run viewer for mobile test runs
+
 ## 0.109.1
 
 ### Patch Changes
