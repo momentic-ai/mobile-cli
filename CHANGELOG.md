@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.110.0
+
+### Minor Changes
+
+- 320bda0: The v4 locator, assertion, and visual-assertion agents are now the recommended default. New projects use them automatically, and existing projects that don't pin those agents in `ai.agentConfig` will pick them up as well. v4 is faster and more reliable than v3.
+
 ## 0.109.3
 
 ### Patch Changes
