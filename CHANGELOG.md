@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.110.1
+
+### Patch Changes
+
+- 1e53ab9: When a required browser isn't installed, the error now names the missing browser and gives the exact command to install just that browser. Command suggestions printed by the CLI now include a runnable prefix so they can be copy-pasted and run directly.
+- ec1e633: Fix missing spacing between fields and sections in the app's dialogs and panels
+
 ## 0.110.0
 
 ### Minor Changes
