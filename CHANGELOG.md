@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.111.0
+
+### Minor Changes
+
+- 8d0fd93: Add support for additional remote emulator regions (us-east1, us-east2, us-west2) for mobile test runs
+- c25036e: Add continent-level emulator regions (us, eu, as) that automatically run on the closest available region within that continent. iOS is supported in us and eu.
+
 ## 0.110.1
 
 ### Patch Changes
