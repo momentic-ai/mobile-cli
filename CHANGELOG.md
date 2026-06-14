@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 0.111.1
+
+### Patch Changes
+
+- 3fededd: Automatically retry mobile emulator setup once on a fresh emulator when device bringup fails, and tighten setup timeouts so a slow start fails fast instead of stalling. iOS tests now also stop quickly when the device becomes unreachable mid-run instead of grinding through retries against a dead device.
+- 338eb6c: Fix `install-browsers` so installed browsers are no longer unexpectedly removed when another Playwright-based tool shares the same browser cache, which previously caused "required browser executables are not installed" errors when running tests.
+
 ## 0.111.0
 
 ### Minor Changes
