@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.112.0
+
+### Minor Changes
+
+- bf0a6b4: Add ability to ungroup a module instance in the editor, inlining its steps in place
+
+### Patch Changes
+
+- f8f56fa: Mobile run details in the run viewer now show the emulator OS version (e.g. "Android 14", "iOS 26") for remote runs.
+- ae2e6dd: Fix a rare error that could cause AI Action steps to fail to complete
+
 ## 0.111.1
 
 ### Patch Changes
