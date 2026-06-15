@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.112.1
+
+### Patch Changes
+
+- f548a40: AI Action can now perform a wider range of actions when generating mobile steps, including extracting data, rotating the device orientation, and running JavaScript.
+
 ## 0.112.0
 
 ### Minor Changes
