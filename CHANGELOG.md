@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.113.0
+
+### Minor Changes
+
+- e1fd29b: Add key press delay and repeat support to the mobile PRESS KEYBOARD step (ENTER/BACKSPACE) on iOS and Android.
+
+### Patch Changes
+
+- ed9a584: Fix mobile AI action runs sometimes showing an empty agent trajectory in the editor, and show the correct AI action version in the run viewer
+- 59b662d: Improve reliability of run telemetry delivery on networks with restricted egress
+
 ## 0.112.1
 
 ### Patch Changes
