@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 0.114.0
+
+### Minor Changes
+
+- c5c8698: Implement additional content replacement strategies for Android/iOS. By default, Momentic will attempt all of them one by one until the text is cleared.
+
+### Patch Changes
+
+- 546d7ae: Mobile AI checks now support a visual-only assertion mode that evaluates the screen using the screenshot alone, without the accessibility tree
+
 ## 0.113.0
 
 ### Minor Changes
