@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 0.115.0
+
+### Minor Changes
+
+- e7068f1: Fix clearing and replacing existing text when typing into native and webview inputs on iOS and Android, including protected and secure fields.
+
+### Patch Changes
+
+- e2a2716: Fix issue with two interaction highlights on mobile web
+- 291bba9: Fix run viewer video player sizing issues, add spacebar keyboard shortcut for pause/play
+- 4064902: Keep running when project configuration cannot be reloaded after a file change (e.g. a temporary network issue); the previously loaded configuration is kept instead of surfacing an error.
+- 82ccff9: Dragging a step over a collapsed module or conditional now auto-expands it after a brief hold, so you can drop steps directly inside. It re-collapses if you drag away without dropping.
+
 ## 0.114.0
 
 ### Minor Changes
