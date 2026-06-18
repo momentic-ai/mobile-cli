@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 0.116.1
+
+### Patch Changes
+
+- 2319d19: Improve the reliability of AI Action when extracting data from scrollable lists and working with environment variables.
+- 88688c7: Fix mobile CLI dependency resolution so the package installs and publishes reliably
+- 35a3a7e: Show a clear validation error instead of an internal error when a mobile test file uses an unsupported or invalid command.
+
 ## 0.116.0
 
 ### Minor Changes
