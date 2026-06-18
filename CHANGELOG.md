@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 0.116.0
+
+### Minor Changes
+
+- 392ffc9: Add visualDiff command for mobile tests: compare a full-screen screenshot against a local golden image, with a configurable threshold. Goldens are created on first run and updated with --update-golden-files.
+- 57a8f40: Improve reliability of Android mobile test runs by ensuring the remote emulator's Playwright server matches the CLI's Playwright version.
+
+### Patch Changes
+
+- a66d503: Patch a critical security vulnerability (CVE-2026-9679, CRLF injection) in an underlying HTTP networking dependency.
+
 ## 0.115.0
 
 ### Minor Changes
