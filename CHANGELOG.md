@@ -1,5 +1,29 @@
 # momentic-mobile
 
+## 1.0.0
+
+### Major Changes
+
+- 209ade0: Dropped support for Node.js 20, which has reached end of life. The CLIs now
+  require Node.js 22 or newer.
+
+### Minor Changes
+
+- 209ade0: Test run videos now default to `on-fail`: a recording is captured for every run
+  but kept only when the test fails. Pass `--video true` (or set `recordVideo: true`)
+  to keep every recording, or `--video false` to disable recording entirely. The
+  deprecated `--record-video` flag has been removed — use `--video` instead.
+
+### Patch Changes
+
+- 209ade0: Updated the bundled Playwright to 1.60.0, picking up the latest browser engines
+  and upstream bug fixes.
+- 209ade0: New projects now default to the latest version of each AI agent, pinned to an
+  exact sub-version. Pinning keeps the default from changing unexpectedly when a
+  newer revision of the same agent ships. Existing projects that already set
+  `ai.agentConfig` are unaffected.
+- 209ade0: AI Action steps now default to the V3 agent everywhere. The older V2 agent is marked "Legacy" and can no longer be selected for new AI Action steps in the editor; existing V2 steps continue to run.
+
 ## 0.116.2
 
 ### Patch Changes
