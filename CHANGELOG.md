@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 0.116.2
+
+### Patch Changes
+
+- d73b634: The CLI now shows important announcements from Momentic after checking for updates.
+
 ## 0.116.1
 
 ### Patch Changes
