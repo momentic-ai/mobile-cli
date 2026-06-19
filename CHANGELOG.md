@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.0.1
+
+### Patch Changes
+
+- 2c7e648: Editor tab filters (Console, Network, and others) now persist when switching between tabs, clearing only on page refresh
+
 ## 1.0.0
 
 ### Major Changes
