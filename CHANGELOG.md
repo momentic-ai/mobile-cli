@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.0.2
+
+### Patch Changes
+
+- cce9b28: Fix the Visual Diff step's threshold field in the mobile editor so it accepts the full range of values (shown as a percentage) instead of snapping to only 0 or 100%.
+- 595b021: Fix the run viewer's expand-editor modal so the code editor fills the modal height
+
 ## 1.0.1
 
 ### Patch Changes
