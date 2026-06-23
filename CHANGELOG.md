@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.0.3
+
+### Patch Changes
+
+- 693f21d: Resolve security advisories in bundled dependencies.
+- 4081c30: Editor Run button is now a split button to choose which sections (Setup, Main, Teardown) to run.
+
 ## 1.0.2
 
 ### Patch Changes
