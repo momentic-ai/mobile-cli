@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 1.1.0
+
+### Minor Changes
+
+- 282b299: Add Allure report support (allure, allure-json) to the mobile CLI for iOS and Android, matching the web reporters.
+
+### Patch Changes
+
+- 7e5f725: Fix mobile device sessions failing to start with `UND_ERR_INVALID_ARG` on Node.js 26 and newer.
+- 36f4221: Fix the iOS Add File step so preset storage locations like Photos can be picked from the dropdown without reverting to a custom path
+- 728f472: Clarify ADD_FILE --storage-location guidance in the mobile Step Authoring Guide (iOS Photos library import vs app sandbox container, Android media directory)
+- c5a2626: Smooth out the run progress spinner animation
+
 ## 1.0.4
 
 ### Patch Changes
