@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.0.4
+
+### Patch Changes
+
+- ab638ce: Show a clean, actionable error message instead of a stack trace when a command fails with an expected error such as an unknown run group or run ID.
+
 ## 1.0.3
 
 ### Patch Changes
