@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.1.1
+
+### Patch Changes
+
+- c7e63cd: Show a clear validation error when an iOS test uses a command or key that isn't supported on iOS, instead of failing with an unexpected error
+- 5f1426a: Fix an unexpected error when running a mobile test that references a module containing an invalid or unsupported step. These now report a clear validation error instead of failing with an internal error.
+
 ## 1.1.0
 
 ### Minor Changes
