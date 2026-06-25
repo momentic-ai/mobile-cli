@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.1.2
+
+### Patch Changes
+
+- 3f1ab24: Fix an issue where scroll actions could tap instead of scrolling
+
 ## 1.1.1
 
 ### Patch Changes
