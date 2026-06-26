@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.3.0
+
+### Minor Changes
+
+- 59ee659: Add JSON run reporter
+
 ## 1.2.0
 
 ### Minor Changes
