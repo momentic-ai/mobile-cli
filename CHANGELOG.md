@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.2.0
+
+### Minor Changes
+
+- 376c802: Add element locating to the mobile editor so you can find matching on-screen elements from a target description.
+
+### Patch Changes
+
+- 6ee2d10: Fix a broken-image placeholder appearing in the mobile editor device preview while the emulator is booting
+- db466c1: Fix iOS taps that could fire before a remote simulator finished booting; mobile runs now wait for the device to be fully booted before executing steps.
+- 29f2a2b: Fail fast with a clear error when the CLI is run on an unsupported Node.js version.
+
 ## 1.1.2
 
 ### Patch Changes
