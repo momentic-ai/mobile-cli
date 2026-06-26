@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.3.2
+
+### Patch Changes
+
+- f272efd: Wait for iOS keyboard input readiness before typing.
+
 ## 1.3.1
 
 ### Patch Changes
