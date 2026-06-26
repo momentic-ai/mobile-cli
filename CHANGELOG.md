@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.3.1
+
+### Patch Changes
+
+- 9734965: Fix knowledge base citation links in the local run results viewer to correct url
+
 ## 1.3.0
 
 ### Minor Changes
