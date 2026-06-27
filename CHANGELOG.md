@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.3.3
+
+### Patch Changes
+
+- 1554b9a: The "update available" notice now links to GitHub Releases for the changelog.
+
 ## 1.3.2
 
 ### Patch Changes
