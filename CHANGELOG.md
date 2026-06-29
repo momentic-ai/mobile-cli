@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.3.4
+
+### Patch Changes
+
+- 8b40178: Update notification now shows the version you'll actually upgrade to and warns when it's a new major version with potential breaking changes
+- e6831ad: Make browser installation more reliable: re-install partially-downloaded browsers instead of later failing with "browser is not installed", and fix garbled progress output during the download.
+
 ## 1.3.3
 
 ### Patch Changes
