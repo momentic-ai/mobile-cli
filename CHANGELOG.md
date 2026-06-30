@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.4.0
+
+### Minor Changes
+
+- 08af958: Support autoAcceptAlerts, autoDismissAlerts, language, and locale emulator settings
+- 5afbdfe: Make taps more resilient to elements moving mid-action.
+
+### Patch Changes
+
+- 0d596ed: Improve mobile AI Action recovery when cached app content changes.
+
 ## 1.3.5
 
 ### Patch Changes
