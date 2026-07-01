@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.4.3
+
+### Patch Changes
+
+- be1fef2: Keep the MCP daemon alive while long-running steps are executing
+
 ## 1.4.2
 
 ### Patch Changes
