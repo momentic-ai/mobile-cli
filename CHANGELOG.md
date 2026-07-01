@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.4.2
+
+### Patch Changes
+
+- 272c754: Fix folder dropdown scroll behavior in create module and move dialogs
+
 ## 1.4.1
 
 ### Patch Changes
