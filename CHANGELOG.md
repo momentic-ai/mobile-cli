@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.4.5
+
+### Patch Changes
+
+- 9d99843: Pause editor trajectory autoscroll while users are scrolled away from the bottom.
+- d70920c: MCP server now cleans up active sessions and emulators when the MCP client disconnects
+
 ## 1.4.4
 
 ### Patch Changes
