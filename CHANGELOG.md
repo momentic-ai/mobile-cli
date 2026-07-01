@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.4.4
+
+### Patch Changes
+
+- 231dd9d: Fix issue introduced in 91a9ddb that caused test saving and the auto-save indicator not to work in the local editor on the initial load
+
 ## 1.4.3
 
 ### Patch Changes
