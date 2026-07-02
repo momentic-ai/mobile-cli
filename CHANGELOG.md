@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.1
+
+### Patch Changes
+
+- a1be78f: Fix Run To in editor to resume after last executed step instead of re-running from the beginning
+
 ## 1.6.0
 
 ### Minor Changes
