@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.4.6
+
+### Patch Changes
+
+- 465a07e: Fix collapsed conditional steps unexpectedly expanding during test execution
+- 44bf5b5: Restore editor autoscroll behavior for streaming step output.
+- d4fadc2: Round scroll pixel values in trace display
+
 ## 1.4.5
 
 ### Patch Changes
