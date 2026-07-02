@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.5.1
+
+### Patch Changes
+
+- a87f5b0: Allow passing an optional timeoutSeconds to momentic_poll_runner to wait for active runs to finish.
+- af61e64: Modules are expanded by default when created
+
 ## 1.5.0
 
 ### Minor Changes
