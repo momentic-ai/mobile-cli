@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.0
+
+### Minor Changes
+
+- 6dac91a: Support running only multi-selected steps via context menu or keyboard shortcut
+
 ## 1.5.1
 
 ### Patch Changes
