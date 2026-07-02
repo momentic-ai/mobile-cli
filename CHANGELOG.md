@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.4.7
+
+### Patch Changes
+
+- 151f2cd: Auto-scroll step list to keep the executing step in view during test runs
+
 ## 1.4.6
 
 ### Patch Changes
