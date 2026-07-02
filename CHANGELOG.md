@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.5.0
+
+### Minor Changes
+
+- 87661b6: Add a soft timeout to momentic_run_step which responds after 30 seconds with the currently executing step and how to poll for the result
+- 87661b6: Add momentic_poll_runner tool which responds with the status of executing steps on the session
+- 87661b6: Significant skill update for how to handle the new run step status tool and polling pattern
+
 ## 1.4.7
 
 ### Patch Changes
