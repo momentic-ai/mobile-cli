@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.2
+
+### Patch Changes
+
+- c98a9e1: Pressing Escape in the editor now dismisses one layer at a time — a layered modal or a focused input is cleared before the side panel closes.
+
 ## 1.6.1
 
 ### Patch Changes
