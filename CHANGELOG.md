@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.3
+
+### Patch Changes
+
+- 2cc87df: Fix layout issue in editor step list causing element overflow
+
 ## 1.6.2
 
 ### Patch Changes
