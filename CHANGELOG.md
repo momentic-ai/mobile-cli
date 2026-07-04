@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.5
+
+### Patch Changes
+
+- 0164f00: Fix saving of tests with long multi-line JavaScript steps introducing unwanted line breaks in the code
+
 ## 1.6.4
 
 ### Patch Changes
