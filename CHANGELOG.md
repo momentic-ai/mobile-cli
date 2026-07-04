@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.6.4
+
+### Patch Changes
+
+- 2338385: Improve AI agent guidance around step cache usage
+
 ## 1.6.3
 
 ### Patch Changes
