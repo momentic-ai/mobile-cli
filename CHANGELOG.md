@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.6.7
+
+### Patch Changes
+
+- f2bbb5f: Fix a rare crash that could occur when an operation was cancelled or timed out
+- c4eb835: Stream the mobile step trace live into the editor as the step runs.
+
 ## 1.6.6
 
 ### Patch Changes
