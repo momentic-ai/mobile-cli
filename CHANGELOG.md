@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.6.6
+
+### Patch Changes
+
+- 620d825: Modules are expanded by default when added via the step picker
+- c552c9f: Gracefully handle system dependency installation failures (e.g. spawn su EACCES) during browser setup instead of crashing
+
 ## 1.6.5
 
 ### Patch Changes
