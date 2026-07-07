@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.8.0
+
+### Minor Changes
+
+- fd327bb: Add "Move to top" / "Move to bottom" to the editor step right-click menu, for both a single step and a multi-step selection
+
 ## 1.7.0
 
 ### Minor Changes
