@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.7.0
+
+### Minor Changes
+
+- 67e87ff: Duplicate multiple selected steps at once from the editor's right-click menu
+
+### Patch Changes
+
+- cdc143a: `upgrade` now asks for confirmation before rewriting tests to the simplified format when the project is not already using it (skip with --yes)
+
 ## 1.6.7
 
 ### Patch Changes
