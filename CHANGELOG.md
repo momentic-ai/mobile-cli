@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.10.1
+
+### Patch Changes
+
+- 6de87b2: Fix run output stacking duplicate status lines instead of updating in place on some terminals
+- 461e0af: Show a clear, actionable message when no Momentic project configuration can be found instead of failing with an unexpected error.
+
 ## 1.10.0
 
 ### Minor Changes
