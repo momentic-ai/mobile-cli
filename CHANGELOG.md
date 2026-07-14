@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.11.0
+
+### Minor Changes
+
+- 0984474: Mobile runs now emit per-step progress to the new `steps` reporter (`--reporter steps`): each step logs as it starts and finishes, with nesting, sections (setup/main/teardown), and per-step durations — useful for CI logs
+
+### Patch Changes
+
+- 675b4e4: Release remote Android emulators when ADB setup fails.
+- 0cf5766: Update bundled dependencies to address a security advisory
+
 ## 1.10.1
 
 ### Patch Changes
