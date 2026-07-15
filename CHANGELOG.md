@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.12.1
+
+### Patch Changes
+
+- fca017a: Fail fast before creating a remote Android emulator when adb is not installed, instead of failing after the emulator was provisioned.
+
 ## 1.12.0
 
 ### Minor Changes
