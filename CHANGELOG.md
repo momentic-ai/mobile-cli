@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.12.0
+
+### Minor Changes
+
+- 5b399bb: Allow MCP environment tools to recursively filter variables and mobile installed apps.
+
+### Patch Changes
+
+- 93d4a06: AI Action pre-condition and post-condition fields now use the same multi-line editor as the goal.
+
 ## 1.11.0
 
 ### Minor Changes
