@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.13.0
+
+### Minor Changes
+
+- 359bd9a: Reduce iOS interaction delays and allow projects or tests to disable syslog capture to improve simulator responsiveness.
+
+### Patch Changes
+
+- 359bd9a: Fix selecting Custom path for iOS Add File steps in the mobile editor.
+- 359bd9a: Improve mobile AI action self-healing when a cached step targets an element that no longer exists in the app.
+- 359bd9a: Add an opt-in iOS keyboard settle wait for mobile typing.
+
 ## 1.12.2
 
 ### Patch Changes
