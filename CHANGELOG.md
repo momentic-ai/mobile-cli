@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.14.0
+
+### Minor Changes
+
+- 295768e: Default new remote Android mobile tests to Android 15.
+- b89375b: Remote emulators now run the latest supported OS versions by default (Android 15, iOS 26)
+
+### Patch Changes
+
+- 19a2ab5: Speed up screenshot resize and crop operations with optional `sharp` support while retaining the portable Jimp fallback
+- 46e64ef: Make iOS TYPE step keyboard settle a toggleable setting that defaults to false.
+
 ## 1.13.0
 
 ### Minor Changes
