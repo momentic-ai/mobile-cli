@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.12.2
+
+### Patch Changes
+
+- 42550e5: Fix iOS Add File so files reliably land in Photos or the target app's storage
+
 ## 1.12.1
 
 ### Patch Changes
