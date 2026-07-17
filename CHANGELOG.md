@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.15.0
+
+### Minor Changes
+
+- c0741ab: Mobile assets are now immutable: a channel/tag can only be re-uploaded with identical bytes. `--tag` is now optional on upload — when omitted, a tag is generated for you and printed in the output. `latest` is reserved and resolves to the most recently uploaded asset in a channel. You can now delete a single asset with `assets delete`. You can also attach a floating alias (e.g. `--alias nightly`) on upload — aliases are per-platform, move on each upload, and a test referencing the alias resolves to the most recently aliased asset while the underlying tagged bytes stay immutable.
+
+### Patch Changes
+
+- a2699ba: Prevent concurrent MCP tool calls from overwriting or corrupting artifact files.
+- 3ddb670: Attribute credit usage to the originating environment and platform for more precise usage reporting.
+- 3142684: Fix environment scoping for knowledge base entries
+
 ## 1.14.1
 
 ### Patch Changes
