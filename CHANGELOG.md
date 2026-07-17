@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.14.1
+
+### Patch Changes
+
+- 70a2476: Reduce delays from git metadata collection and show preparation progress during AI triage and classification.
+- 403f535: Disable Android logcat capture by default and allow projects or tests to opt in when debugging.
+- ae13c01: Restore line wrapping when saving tests so long text steps stay readable, while keeping JavaScript steps exactly as written
+- 442469c: Gate premature success in the tool-based mobile AI action: finish(success=true) with no authored postcondition is now rejected so the settled goal state is re-observed before the run is marked done.
+- 712475c: Disable iOS syslog capture by default and allow projects or tests to opt in when debugging.
+
 ## 1.14.0
 
 ### Minor Changes
