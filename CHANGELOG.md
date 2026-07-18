@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.15.1
+
+### Patch Changes
+
+- f89937c: Fix a high-severity vulnerability in ZIP archive handling
+
 ## 1.15.0
 
 ### Minor Changes
