@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.15.2
+
+### Patch Changes
+
+- 33d9fd9: Use Sharp when available to reduce screenshot stability comparison overhead while retaining the portable fallback.
+
 ## 1.15.1
 
 ### Patch Changes
