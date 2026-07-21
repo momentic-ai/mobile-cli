@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.16.3
+
+### Patch Changes
+
+- a046445: Return web and mobile editor step results faster.
+- 37b4cbf: Fix cleanup logic after setup failures
+
 ## 1.16.2
 
 ### Patch Changes
