@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.16.0
+
+### Minor Changes
+
+- 653d5db: Include test labels in usage reporting so usage can be broken down by label.
+
+### Patch Changes
+
+- 10f34eb: Add search to folder dropdown in create module and move dialogs
+- bc628e2: Show a clear message instead of crashing when the mobile editor's port is already in use.
+- 5d7a367: Fix mobile tests failing to start with a "Could not find a driver" error in some environments.
+
 ## 1.15.2
 
 ### Patch Changes
