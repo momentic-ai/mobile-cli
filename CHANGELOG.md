@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.16.2
+
+### Patch Changes
+
+- 9d2a7ee: Improve reliability for long-running AI agent conversations.
+- 7ee727a: Make run_step faster by allowing eligible work to finish asynchronously.
+
 ## 1.16.1
 
 ### Patch Changes
