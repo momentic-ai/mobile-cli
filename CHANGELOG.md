@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.16.1
+
+### Patch Changes
+
+- f0020b3: Reset interactive test fixtures consistently between browser and emulator replays.
+
 ## 1.16.0
 
 ### Minor Changes
