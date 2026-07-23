@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.16.4
+
+### Patch Changes
+
+- e53d24c: Change how model streams recover when they fail to call tools correctly.
+
 ## 1.16.3
 
 ### Patch Changes
