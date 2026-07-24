@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.17.0
+
+### Minor Changes
+
+- ce7a3da: Use Knowledge Base to evaluate Android assertions and include cited knowledge in assertion traces.
+
+### Patch Changes
+
+- 812ddd5: Stop rewriting test and module files with formatting-only changes; saving a test or module whose content doesn't change no longer produces a diff.
+
 ## 1.16.4
 
 ### Patch Changes
