@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.17.1
+
+### Patch Changes
+
+- 315c5c3: Fix a rare failure that could corrupt run result archives when they grew past the zip size limit
+- d0a93c9: Raise network-log circuit-breaker thresholds for remote browsers and auto-resume capture 30s after it trips
+
 ## 1.17.0
 
 ### Minor Changes
