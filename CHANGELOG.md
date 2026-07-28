@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.17.3
+
+### Patch Changes
+
+- e3e23ad: Show a clear, actionable message when your Momentic API key is invalid or unauthorized instead of failing with an unexpected error.
+- 51c6130: Improve diagnostics for unexpected errors
+
 ## 1.17.2
 
 ### Patch Changes
