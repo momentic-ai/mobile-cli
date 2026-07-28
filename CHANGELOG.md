@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.17.2
+
+### Patch Changes
+
+- b229223: Fix mobile scroll steps that scrolled back away from the content they just found, when the cached scroll target was an element taller than the screen.
+
 ## 1.17.1
 
 ### Patch Changes
