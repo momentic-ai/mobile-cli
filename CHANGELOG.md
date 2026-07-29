@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.18.0
+
+### Minor Changes
+
+- 8a7bbe7: Mobile AI Action steps are now aware of the surrounding test steps, helping them choose end states that set up the steps that come next
+
+### Patch Changes
+
+- fdff230: Show a clear "page not found" screen when opening an out-of-date link in the local app
+
 ## 1.17.3
 
 ### Patch Changes
