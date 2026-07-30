@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 1.18.1
+
+### Patch Changes
+
+- 4b575a6: Report emulator plan and concurrency limit errors as configuration issues with a clear message instead of internal platform errors
+- 4b575a6: Show clear guidance when browser installation fails because the browser download directory is not writable
+- 4b575a6: Prevent the CLI from crashing when a run artifact file cannot be written
+- 4ae0b11: AI Action failures now say when the agent hit the step budget
+- 332a64b: Update bundled dependencies to address security advisories
+- 4b575a6: Skip noisy error logs when collecting git metadata in a repository that has no commits yet
+- 4b575a6: Show driver-specific troubleshooting when an Android Appium session fails because the UiAutomator2 driver could not be found, instead of unrelated device/server guidance.
+- 4b575a6: Show a clear error message when browsers are not available for your operating system, with a workaround, instead of a raw installation failure
+- 4b575a6: Show a clear, actionable message when your Momentic API key is invalid or expired instead of failing with an unexpected error.
+- 4b575a6: Show a clear error message when an asset upload is rejected (for example an immutable tag conflict or a reserved tag name) instead of crashing
+- 2fed62b: Sign-in automatically issues a new code if you don't finish signing in before the first one expires
+
 ## 1.18.0
 
 ### Minor Changes
