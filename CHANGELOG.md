@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.18.2
+
+### Patch Changes
+
+- 74b3a94: Fix iOS steps failing to find elements in a dialog that is visible on screen.
+- 7305085: Show a clear error message when conflicting cache flags are combined instead of exiting unexpectedly.
+- ef9c33f: AI Action failures now explain what blocked the agent, not just the last step that failed
+
 ## 1.18.1
 
 ### Patch Changes
