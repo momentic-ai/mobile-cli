@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.18.3
+
+### Patch Changes
+
+- 91d4e03: Fix the iOS Open app launch-arguments field to show the correct JSON array format hint.
+- 0a92cb6: Accept run-group uploads without runs when the recorded selection chose zero tests, and add `--allow-empty` to `results merge` and `results upload` so zero-run shards' metadata merges and a missing results path is a graceful no-op.
+- f41df12: Update mobile testing dependencies to pick up security fixes
+- 88cf4e4: Fixed AI Action occasionally trying an unsupported command and failing a step instead of completing it.
+- bf45367: Allow more time for WebDriverAgent to start on remote iOS emulators, reducing spurious "device unreachable" failures during session startup
+
 ## 1.18.2
 
 ### Patch Changes
