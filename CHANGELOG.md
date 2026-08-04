@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 1.19.0
+
+### Minor Changes
+
+- 506e63e: Quarantined tests are now skipped by default. Pass --skip-quarantined false to run them without affecting pipeline status.
+- 9167375: Mobile test settings can now target an asset alias, such as nightly, instead of a fixed tag
+- 0b55d6f: Fix Android type steps with clearContent typing nothing into an already-empty field, and typing into the middle of text a clear left behind
+
+### Patch Changes
+
+- 58f4d2b: Fixed triage and heal agents failing to open the artifact files that tool results point at when the CLI runs from a subdirectory of the project
+- 60808a7: Use the latest text in a step when running it from the editor, instead of the previously saved value.
+- ee0dbcb: --skip-quarantined now rejects values other than true or false instead of silently disabling the flag, and can be combined with --from-snapshot.
+- 0b55d6f: Fix Android backspace clearContent leaving residual text in native input fields when the cursor is not at the end.
+- fd5b57d: Keep typed text out of iOS trace details
+
 ## 1.18.3
 
 ### Patch Changes
