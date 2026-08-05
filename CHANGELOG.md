@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.20.0
+
+### Minor Changes
+
+- 3ed4f96: Local emulators and simulators now wait up to 300 seconds to finish starting, configurable with the localEmulatorStartTimeout emulator setting.
+
+### Patch Changes
+
+- d1971c3: Improve the local run viewer: reorganized detail tabs, tidier feedback controls, and simplified run-state chips with hover cards.
+- ff92710: Fix intermittent Android emulator connection failures when running tests in parallel
+
 ## 1.19.0
 
 ### Minor Changes
