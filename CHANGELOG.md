@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.21.0
+
+### Minor Changes
+
+- 0bed335: Add `emulator.jurisdiction` (`us`, `eu`, or `as`) to pin hosted emulators to a single jurisdiction for data residency.
+- 50b7ecd: Support disabling caching on AI actions to run the agent on every execution instead of replaying previously generated steps.
+
 ## 1.20.0
 
 ### Minor Changes
