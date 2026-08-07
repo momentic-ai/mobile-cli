@@ -1,11 +1,5 @@
 # momentic-mobile
 
-## 1.22.1
-
-### Patch Changes
-
-- 3ad770c: Update bundled dependencies to address security advisories
-
 ## 1.22.0
 
 ### Minor Changes
