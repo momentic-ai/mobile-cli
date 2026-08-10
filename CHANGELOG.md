@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.23.0
+
+### Minor Changes
+
+- e674876: Mobile tests now wait for the screen to be ready before locating an element with AI, asking a vision model whether it has finished rendering instead of only whether it has stopped changing — a frozen splash, a permission dialog and a blank content area are all perfectly still. `emulator.smartWaitingTimeoutMs` bounds every wait and retry on an interaction, and `emulator.waitForStability` now means the same thing on both platforms: settle after every step that can change the screen, off by default.
+
+### Patch Changes
+
+- fc97977: Fix a retries value of 1 not being saved in test settings.
+- e674876: Speed up mobile screenshot convert and PNG diff with optional `sharp`, keeping the portable jpeg-js/pngjs fallback.
+
 ## 1.22.0
 
 ### Minor Changes
