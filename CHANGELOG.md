@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.23.1
+
+### Patch Changes
+
+- 44eeeca: Fix Android permission prompts appearing after a soft reset when autoGrantPermissions is enabled
+- bbd4779: Fix mobile tap steps with x/y coordinate targets loading as an element description.
+
 ## 1.23.0
 
 ### Minor Changes
