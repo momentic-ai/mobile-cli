@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.24.0
+
+### Minor Changes
+
+- 2a42af9: Add conditionals to AI actions.
+
+### Patch Changes
+
+- 13bf14b: Soft Reset in the mobile editor now clears step pass/fail statuses
+- d5bca35: Resolves an issue where a mobile AI action could cache and repeat an action its goal explicitly prohibited
+- 5d087fa: Quarantined tests run again by default, restoring the behavior from before 3.47.0. Pass --skip-quarantined to skip them.
+
 ## 1.23.1
 
 ### Patch Changes
