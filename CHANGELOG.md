@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.24.1
+
+### Patch Changes
+
+- 9cfa2b6: Remove a bundled dependency to resolve two high-severity security advisories
+- a468ccf: Give Appium more time to start on slower machines, and explain why startup failed when it does not
+
 ## 1.24.0
 
 ### Minor Changes
