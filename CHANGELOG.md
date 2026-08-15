@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.26.0
+
+### Minor Changes
+
+- 71d45e0: Added while-loop steps to mobile tests.
+
 ## 1.25.0
 
 ### Minor Changes
