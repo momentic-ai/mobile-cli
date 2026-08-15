@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 1.25.0
+
+### Minor Changes
+
+- 84bb67f: Add setCamera, clearCamera, setMicrophone, and clearMicrophone mobile steps for hosted iOS simulators
+- 032f72a: The local editors now show a "What's new" card with the latest Momentic product update, and the support chat bubble no longer overlaps the editor UI.
+
+### Patch Changes
+
+- d13bd8c: Write a live progress.json file during local mobile test runs
+- 7abe4b0: Fix a streaming failure that could interrupt AI steps mid-run
+- 4c7d62d: Retry WebDriverAgent startup on remote iOS devices instead of discarding the device, and report why startup failed
+- 4c7d62d: Remove the `why-is-node-running` dependency so that CLI installs no longer fail when the package manager blocks it as an untrusted release
+- 1d42455: Fix iOS and Android runs failing with "The Chromium browser is not installed": mobile tests and onboarding no longer need a local browser install
+- 9bb3935: Correct keyboard shortcuts when tests use hosted browsers.
+
 ## 1.24.1
 
 ### Patch Changes
