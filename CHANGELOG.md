@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 1.27.0
+
+### Minor Changes
+
+- dbb3031: Keep comments in test and module files when they are saved from the editor
+
+### Patch Changes
+
+- cd09122: Restore Android location services and configured emulator settings after a soft reset.
+- 472a9b6: Make MCP workflows faster with reusable daemon sessions, batched previews, and parallel element location.
+- 1e97e10: Renaming a mobile module now updates the module path in every test and module that uses it
+- 4243e94: Wait for a concurrent browser install to finish instead of crashing when the install lock is held, and show clear instructions if it is still locked.
+
 ## 1.26.0
 
 ### Minor Changes
