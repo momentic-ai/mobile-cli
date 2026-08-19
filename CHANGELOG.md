@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.27.1
+
+### Patch Changes
+
+- 99f4d43: Report a clear configuration error with remediation steps when a local Android app install conflicts with the app already installed on the device
+- 7018b24: Preserve recent service logs that are already streaming into the test output directory so AI failure classification can inspect them, while pruning entries older than one hour.
+
 ## 1.27.0
 
 ### Minor Changes
