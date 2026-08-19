@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.27.2
+
+### Patch Changes
+
+- a652e33: Make `ignorePageLoadTimeouts` avoid repeated delays when a page does not finish loading.
+
 ## 1.27.1
 
 ### Patch Changes
