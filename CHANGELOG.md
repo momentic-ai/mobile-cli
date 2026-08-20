@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.27.3
+
+### Patch Changes
+
+- e5c6cc3: Keep large CI result uploads within bounded memory.
+- 71451f7: iOS camera steps can now optionally play the video's audio track on the simulated microphone.
+
 ## 1.27.2
 
 ### Patch Changes
