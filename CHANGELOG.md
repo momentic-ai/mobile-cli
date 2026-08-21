@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.27.4
+
+### Patch Changes
+
+- e4c5fc1: Preserve result upload errors and report leftover temporary archives when cleanup fails.
+- 5432fca: Prevent large mobile JavaScript steps from exhausting memory while restoring test history.
+- 2a6ef7a: Wait for Limbar iOS emulator to finish booting before installing WebDriverAgent
+
 ## 1.27.3
 
 ### Patch Changes
