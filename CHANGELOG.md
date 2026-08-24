@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.28.0
+
+### Minor Changes
+
+- 2571568: Allow MCP agents to set run and preview soft timeouts, poll long-running previews, and batch-preview AI actions and modules.
+- 3fa3974: Allow bare strings in simplified test steps to represent AI action V3 goals, with an advanced setting to preserve the shorthand when saving.
+- 6b483b5: Support installing managed app assets during iOS tests, including local simulators.
+
 ## 1.27.4
 
 ### Patch Changes
