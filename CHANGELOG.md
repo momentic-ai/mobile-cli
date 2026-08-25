@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.28.1
+
+### Patch Changes
+
+- 03b3abc: Prevent large result ZIP uploads from timing out.
+- 69d5885: Allow iOS tests with automatic alert acceptance to grant while-in-use location permission.
+
 ## 1.28.0
 
 ### Minor Changes
