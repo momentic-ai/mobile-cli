@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.28.2
+
+### Patch Changes
+
+- 4d6f4f2: Detect adb correctly when the Android SDK path contains spaces
+- 4d6f4f2: Fix iOS and Android sessions failing to start with "Could not find a driver for automationName"
+- 4d6f4f2: Fix spurious git errors when the system uses a non-English locale
+- 1e26c49: Show failure recovery errors when failed actions run inside modules.
+- 8116d0c: Enable AI action shorthand by default for newly initialized projects, improve its editor validation, and allow any stable kebab-case V2 ID.
+- 4d6f4f2: Retry rate-limited API requests during setup and report a clear message when the limit persists.
+
 ## 1.28.1
 
 ### Patch Changes
