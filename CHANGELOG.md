@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.28.3
+
+### Patch Changes
+
+- 0312aa2: Retry iOS Appium session creation once after a session-create timeout, restarting WebDriverAgent and Appium before the retry.
+- 271ac56: Add `init --yes` to set up a project without prompts. Unknown step types now name the closest valid step, and a `waitForUrl` pattern with a wildcard explains that substring matching is literal. A confirmation prompt in a shell with no terminal now stops with instructions instead of assuming yes.
+
 ## 1.28.2
 
 ### Patch Changes
