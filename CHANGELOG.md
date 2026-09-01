@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.28.4
+
+### Patch Changes
+
+- 420471c: Improve internal emulator failure logging.
+- 4563de1: Show session expiry as an expected time limit instead of an emulator failure.
+
 ## 1.28.3
 
 ### Patch Changes
