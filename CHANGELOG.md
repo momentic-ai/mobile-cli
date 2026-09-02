@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.28.5
+
+### Patch Changes
+
+- 6b86c95: Correct CLI sign-in hints for each published command.
+- a7723cd: Prevent directory test filters from matching similarly named sibling directories.
+- 513f716: Prevent long-running remote mobile tests from losing their emulator sessions.
+
 ## 1.28.4
 
 ### Patch Changes
