@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.28.6
+
+### Patch Changes
+
+- cbf3c9b: Load the other mobile tests and modules in the editor when one mobile module fails to parse
+- cbf3c9b: Fix parallel mobile sessions failing to start with "Could not find a driver for automationName"
+- cbf3c9b: Suggest `doctor` when a run fails because a browser or the ffmpeg binary is missing
+- cbf3c9b: Explain the cause when a test or module file can't be written because of file permissions or a file lock
+- cbf3c9b: Stop retrying and explain the cause when the iOS simulator rejects an incompatible app bundle
+- cbf3c9b: Prevent long mobile test runs from losing remote emulators after a stalled heartbeat.
+
 ## 1.28.5
 
 ### Patch Changes
