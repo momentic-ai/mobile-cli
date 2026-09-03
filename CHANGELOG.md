@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.28.7
+
+### Patch Changes
+
+- 953e67c: Fix remote emulators being deleted mid-run on iOS and Android.
+- 435082a: Improve AI Action performance with a new AI model.
+
 ## 1.28.6
 
 ### Patch Changes
