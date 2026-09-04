@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.28.8
+
+### Patch Changes
+
+- 046a8f8: New web projects created with `momentic init` or the onboarding wizard get a documented `momentic.config.yaml`: every option has an explanatory comment, useful options such as hosted browsers (`browser.remoteBrowser`) appear as commented-out hints, and `parallel` defaults to `auto`.
+- 31e7d06: iOS soft reset now clears app data, keychain, privacy settings, preferences, and shared containers between test runs.
+
 ## 1.28.7
 
 ### Patch Changes
