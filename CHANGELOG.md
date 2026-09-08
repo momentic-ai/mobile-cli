@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 1.29.0
+
+### Minor Changes
+
+- bae8f2e: Add `emulator.networkConditions` to limit download and upload bandwidth on hosted Android emulators.
+- da2bf5c: Add v2 mobile locator configs
+- ce6f77c: Enable AI locator and assertion memory for iOS tests.
+
+### Patch Changes
+
+- 8f54ae9: Speed up the local editor's browse pages and first editor load for projects with thousands of tests.
+- 379023c: Fix a Node.js "MaxListenersExceededWarning" that could appear during long test runs and editor sessions.
+- b1b545c: Update bundled dependencies to address a security advisory.
+
 ## 1.28.8
 
 ### Patch Changes
