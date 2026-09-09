@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.31.0
+
+### Minor Changes
+
+- 50b5b18: Remove the failureRecoveryInstructions test setting. Use knowledge base agent rules to give the failure recovery agent custom guidance instead.
+- b68a8f4: Add `whoami`, which shows the name, email, user ID, organization ID, server, and API key source for the current login.
+
+### Patch Changes
+
+- ff3e88a: Redirect source run group links to the final merged run group after uploading merged results, and reject merges exceeding 10,000 source groups before upload.
+
 ## 1.30.0
 
 ### Minor Changes
