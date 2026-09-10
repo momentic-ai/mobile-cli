@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.2
+
+### Patch Changes
+
+- 21f4820: Show whether a run's classification was manually overridden or revised by triage, and keep the original AI diagnosis visible for comparison.
+
 ## 1.32.1
 
 ### Patch Changes
