@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.1
+
+### Patch Changes
+
+- cf0b844: Fix CORS failures on third-party requests when tests use `extraHeaders` and network logging is disabled or automatically paused.
+
 ## 1.32.0
 
 ### Minor Changes
