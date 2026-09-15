@@ -1,5 +1,14 @@
 # momentic-mobile
 
+## 1.32.3
+
+### Patch Changes
+
+- 9140ccc: Prevent module retries from rerunning earlier steps when a nested step runs from the web or mobile editor.
+- 4ce7658: Offer to install a newer CLI version in interactive terminals instead of only printing the update notice.
+- c27585b: Report a clear error instead of a 500 when a mobile test or module was deleted or renamed on disk while the editor still references it.
+- f862872: Show iOS syslog entries in the run viewer regardless of the viewer's timezone.
+
 ## 1.32.2
 
 ### Patch Changes
