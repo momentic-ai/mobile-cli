@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.32.4
+
+### Patch Changes
+
+- f2f420c: Fix Android tests hanging when attaching to Chrome Custom Tabs.
+- 6295e47: Update proxy address handling to fix an IP spoofing vulnerability.
+- 4cc1974: Accept `ANDROID_SDK_ROOT` alongside `ANDROID_HOME` in `momentic-mobile doctor` and adb path resolution, matching the runtime's `requireAndroidSdkEnv` contract.
+
 ## 1.32.3
 
 ### Patch Changes
