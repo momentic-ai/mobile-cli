@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.6
+
+### Patch Changes
+
+- a898c4d: Reduce cache snapshot sizes for tests with large JavaScript steps.
+
 ## 1.32.5
 
 ### Patch Changes
