@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.5
+
+### Patch Changes
+
+- 00af6d2: Avoid saving step caches when the run fails
+
 ## 1.32.4
 
 ### Patch Changes
