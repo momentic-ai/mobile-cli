@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.7
+
+### Patch Changes
+
+- e350d1e: Fix iOS type steps failing when clear-content falls back to multiple backspaces.
+
 ## 1.32.6
 
 ### Patch Changes
