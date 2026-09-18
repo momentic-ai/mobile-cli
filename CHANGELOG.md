@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.32.8
+
+### Patch Changes
+
+- a19877c: Include disabled and quarantined skipped tests in Allure reports.
+
 ## 1.32.7
 
 ### Patch Changes
