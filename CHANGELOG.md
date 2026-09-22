@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.33.1
+
+### Patch Changes
+
+- dd210d5: Fix iOS Type steps adding a stray character when the target is re-tapped while the keyboard is already open. When the target is covered by the keyboard, dismiss it before tapping.
+- f6e56d5: Update npm page copy and package metadata: descriptions, keywords, homepage, bugs, and README headers.
+
 ## 1.33.0
 
 ### Minor Changes
