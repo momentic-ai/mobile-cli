@@ -1,5 +1,20 @@
 # momentic-mobile
 
+## 1.33.0
+
+### Minor Changes
+
+- daec9af: Let mobile MCP clients inspect historical mobile runs and step results.
+
+### Patch Changes
+
+- ca82255: Failed commands now print a machine-readable error line to stderr with a stable error code for scripts and CI, and every failure exits with a consistent code.
+- 2fab330: Installing Chrome or Edge now tells you what to do when the system installer fails, instead of only "Failed to install chrome".
+- 2fab330: An API key that was copied incompletely (for example with a trailing "…") is now reported as an invalid key instead of a network error.
+- ed8111c: Include disabled mobile tests as skipped in test reports and run summaries.
+- 0f6533a: Fix incorrect tracking of agent types that caused some AI action agents to run with the wrong execution settings.
+- 93ec530: Report disabled and quarantined skipped tests once across shards in web and mobile test reports.
+
 ## 1.32.8
 
 ### Patch Changes
