@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.33.2
+
+### Patch Changes
+
+- 596a6b2: Avoid authoring replayable steps for temporary mobile recovery actions.
+- 0f08dd5: Report mobile runs as cancelled when stopped during failure recovery.
+- f6d5345: Preserve nested test context in web and mobile AI Action and failure recovery prompts.
+- 12fcdac: Enable iOS failure recovery for eligible transient failures.
+- f4b9fa0: Limit mobile failure recovery to three attempts per run, matching web.
+
 ## 1.33.1
 
 ### Patch Changes
