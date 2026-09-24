@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 1.34.0
+
+### Minor Changes
+
+- 557b03a: Add the `v5` visual-assertion agent and make it the default for new and upgraded projects. `momentic upgrade` sets `visual-assertion: v5`, replacing any `v4` or older value.
+
+### Patch Changes
+
+- 9406ab4: Route mobile smart waiting through the tuned low-latency vision model with the
+  existing provider chain as fallback, and recognize active loading indicators in
+  otherwise rendered screens. Pace successive readiness checks at least 500 ms
+  apart.
+- 424847c: Fix setup flow for headless coding agents: `init` exits with an actionable error in non-TTY shells instead of crashing, `init --yes` now installs skills and attempts MCP wiring, `install-mcp` supports a `devin` client writing project `.mcp.json`, the wizard always installs the skills bundle to `.agents/skills/` unless `--editor-tools none`, and scaffolded tests get readable kebab-case ids.
+
 ## 1.33.2
 
 ### Patch Changes
