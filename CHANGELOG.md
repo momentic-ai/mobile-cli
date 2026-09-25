@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.34.1
+
+### Patch Changes
+
+- eda8900: `install-mcp` now auto-detects Devin via its filesystem markers (`~/.config/devin` for Devin CLI/Desktop, `/opt/.devin` and `~/.devin-files` on Devin VMs), writes the documented `.devin/mcp_config.json` project config (plus `~/.config/devin/mcp_config.json` at user scope), and skips detected clients that cannot take the resolved scope instead of aborting the remaining installs.
+
 ## 1.34.0
 
 ### Minor Changes
