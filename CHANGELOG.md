@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.34.2
+
+### Patch Changes
+
+- b96967c: Fix local and remote iOS simulator startup.
+
 ## 1.34.1
 
 ### Patch Changes
