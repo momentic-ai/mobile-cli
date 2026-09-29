@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.35.0
+
+### Minor Changes
+
+- d49d2f4: Include credits used and steps executed for each test run in the `metadata.json` result artifact.
+
+### Patch Changes
+
+- 27e0bd6: Show a clear error when a mobile test uses a module built for the other platform
+- 0514954: Show a clear error naming the missing file when a JavaScript step references a code file that does not exist
+- da06f3c: Show clear guidance when test result cleanup is blocked by file permissions.
+
 ## 1.34.2
 
 ### Patch Changes
