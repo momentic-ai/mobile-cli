@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.35.1
+
+### Patch Changes
+
+- 261cc08: Improve reliability and compatibility of AI-powered test execution and agent conversations.
+- bd15974: Security fixes.
+- 91ae1e0: Security updates for Momentic Mobile.
+- 66c5f71: Show a clear, actionable error instead of a crash when the skills command can't write to a read-only instructions file or skills directory.
+- 5a9a70a: Fix `results merge` failing when shards of the same commit report different commit timestamps, and explain mismatched shards instead of crashing.
+- a85f50f: Fix missing iOS syslogs in run viewers when simulators use different timezones.
+
 ## 1.35.0
 
 ### Minor Changes
