@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.36.0
+
+### Minor Changes
+
+- 67a5790: Add opt-in network tunneling and HTTP(S) logs for hosted iOS and Android test runs.
+
+### Patch Changes
+
+- 1b5654e: Report invalid device command arguments as configuration errors
+- 1f099bd: Keep failure recovery available when a device command cannot find an element
+
 ## 1.35.1
 
 ### Patch Changes
