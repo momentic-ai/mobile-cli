@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.37.0
+
+### Minor Changes
+
+- b52e3aa: Support network tunneling to remote emulators and simulators in the local editor.
+
+### Patch Changes
+
+- 1cfa021: security fixes
+- 4cfb747: Fix the editor clamping JavaScript timeouts to 120 seconds instead of allowing up to 600 seconds.
+- d10464b: security fixes
+
 ## 1.36.1
 
 ### Patch Changes
