@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.37.1
+
+### Patch Changes
+
+- ca47cc0: Prevent coding-agent connections from failing while long-running MCP operations continue in the background.
+
 ## 1.37.0
 
 ### Minor Changes
