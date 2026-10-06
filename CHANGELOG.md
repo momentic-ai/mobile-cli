@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.37.2
+
+### Patch Changes
+
+- 1066a6d: security fixes
+
 ## 1.37.1
 
 ### Patch Changes
