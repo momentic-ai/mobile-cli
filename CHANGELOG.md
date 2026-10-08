@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.37.3
+
+### Patch Changes
+
+- 651c610: Security fixes.
+
 ## 1.37.2
 
 ### Patch Changes
