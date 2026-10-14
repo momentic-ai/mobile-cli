@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.38.1
+
+### Patch Changes
+
+- 8ce1f88: Fixed mobile device sessions that could keep reconnecting in the background after a test finished.
+
 ## 1.38.0
 
 ### Minor Changes
