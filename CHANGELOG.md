@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.39.0
+
+### Minor Changes
+
+- 997dd47: Show live network requests in the mobile editor when network capture is enabled in configuration.
+
+### Patch Changes
+
+- 81a1282: Show AI test selection decisions and per-test reasons in the local run viewer.
+
 ## 1.38.1
 
 ### Patch Changes
