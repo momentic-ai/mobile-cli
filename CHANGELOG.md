@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.40.0
+
+### Minor Changes
+
+- 697ffe6: Inspect execution logs, device logs, and screen XML in the mobile MCP viewer. Device log capture remains opt-in.
+
+### Patch Changes
+
+- 14abbc5: Report remote emulator cleanup failures and timeouts in diagnostics. The mobile client does not automatically repeat deletions after a received cleanup failure; gateway retries are unchanged. Unknown outcomes stay unresolved, and acknowledgment does not confirm physical termination.
+- 697ffe6: Keep fetched screen hierarchy rows visible when reopening diagnostics. Emphasize screen hierarchy values. Label screen hierarchy search controls and distinguish empty logs from unmatched filters.
+- 1baac01: Explain emulator startup failures with retry guidance and preserve the underlying error details.
+
 ## 1.39.0
 
 ### Minor Changes
