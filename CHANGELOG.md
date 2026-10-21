@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.41.0
+
+### Minor Changes
+
+- 0228ae7: Add native Android webview automation and fix cache controls in the mobile editor.
+
+### Patch Changes
+
+- 14c814c: Try to restore the running iOS app after reconnecting to the device.
+- 78bba49: Security fixes.
+
 ## 1.40.0
 
 ### Minor Changes
