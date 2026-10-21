@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.41.1
+
+### Patch Changes
+
+- fdb873c: Accept multiline step arguments and preserve literal help text in mobile steps.
+
 ## 1.41.0
 
 ### Minor Changes
