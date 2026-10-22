@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.41.2
+
+### Patch Changes
+
+- 31714b9: Fix Android webview targeting when another browser tab is open.
+
 ## 1.41.1
 
 ### Patch Changes
