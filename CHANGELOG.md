@@ -1,5 +1,19 @@
 # momentic-mobile
 
+## 1.41.3
+
+### Patch Changes
+
+- bc827d4: security fixes
+- b59715f: Keep local editor tables up to date and preserve focus and expansion for run-viewer entries with stable IDs.
+- b5f6c78: Preserve inherited mobile settings and explicit overrides when saving tests, without rewriting untouched steps.
+- d0e198e: Fix `--disable-cache` being ignored on mobile AI action steps written as CLI step strings, as the MCP server and agents write them. The flag was dropped when the step was converted, so the AI action still saved and replayed its cache. It now sets `disableCache` on the step, as it already did on web.
+- 88ac32d: Record local Android runs and preserve app installation and device session renewal.
+- 4f74d69: Fix AI actions previewed through the MCP server losing their cache. A successful `momentic_preview_step` of an AI action returned no CacheId, and `--cache-id` was ignored when splicing one, so the spliced AI action saved no cache and the next `momentic run` planned it again from scratch. A successful AI action preview that produced a reusable cache (caching enabled, a resolved goal, and cached sub-steps or a last successful run) now returns a CacheId, and splicing the same step with it saves the cached flow.
+- 69348db: Improve the reliability of AI features when one or more Anthropic model providers is unavailable.
+- 8602b07: Keep local project settings and editor state isolated and recover safely after failed project changes.
+- 9b0f801: Fix intermittent device startup failures when running Android tests in parallel.
+
 ## 1.41.2
 
 ### Patch Changes
