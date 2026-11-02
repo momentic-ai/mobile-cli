@@ -1,5 +1,25 @@
 # momentic-mobile
 
+## 1.41.6
+
+### Patch Changes
+
+- c448115: security fixes
+
+## 1.41.5
+
+### Patch Changes
+
+- db3e018: Improve logging for iOS sessions.
+
+## 1.41.4
+
+### Patch Changes
+
+- bcb87d3: Align remote mobile device interaction defaults with local runs.
+- 4fb860c: Update validation security protections while preserving existing bulk request sizes.
+- 52d6e82: Recover interrupted mobile sessions and give restarted device drivers time to become ready.
+
 ## 1.41.3
 
 ### Patch Changes
