@@ -1,5 +1,21 @@
 # momentic-mobile
 
+## 1.43.0
+
+### Minor Changes
+
+- 5a33fce: Add run assertion controls to the mobile editor and check recorded video after Android and iOS test runs. Report failed run assertions without crashing the CLI summary.
+
+### Patch Changes
+
+- 63985cf: Ignore non-keyboard events when handling editor shortcuts.
+- 2b7a072: Name the hosted simulator's iOS version when it rejects an app build, and explain how to select another iOS version
+- ecc4f0f: When HTTPS traffic is intercepted during sign-in, the error now explains how to trust your corporate certificate with --use-system-ca or NODE_EXTRA_CA_CERTS.
+- bce8b46: Prevent panel cleanup errors when leaving a view during resizing.
+- c53e830: When a hosted Android emulator fails to capture a screenshot, Momentic now retries the capture another way instead of failing the step.
+- 7252ef0: Improve inference speed by scaling screenshots appropriately
+- 6ba8002: Explain missing inputs and filesystem access failures without internal crash reports. Return a 400 response for malformed JSON requests to the local editor and MCP servers, and keep local project settings when organization settings cannot be reached.
+
 ## 1.42.0
 
 ### Minor Changes
