@@ -1,5 +1,22 @@
 # momentic-mobile
 
+## 1.42.0
+
+### Minor Changes
+
+- e56f603: Support uploading iOS device builds and choosing mobile build targets.
+- 4405042: Support installing uploaded apps on additional mobile device providers.
+- 37de26a: Each CLI's pointer block lists only its own skills, and each command rewrites only its own block. The new `devin` target installs skills to `.devin/skills` and writes its pointer in `AGENTS.md`. `qa skills` installs only `mo-qa`. Reinstalling removes skills that this CLI generated earlier and no longer ships, unless another Momentic CLI's pointer in the repository lists the same skills directory.
+- ec6449c: Support sharing uploaded mobile builds across emulator providers.
+
+### Patch Changes
+
+- ed95348: Show the login command when no Momentic API key is found.
+- 2723b39: Support iOS 27 on hosted simulators while keeping iOS 26 as the default.
+- 0b497af: Simplify remote mobile device creation while waiting for devices to become ready.
+- 943ef23: Fix bugs in AI step command parsing.
+- 4fbaf77: Speed up native screen targeting while preserving webview interactions on iOS.
+
 ## 1.41.6
 
 ### Patch Changes
