@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.43.1
+
+### Patch Changes
+
+- 49d0aca: Improve iOS test execution speed by reducing device requests
+- f5ebfaa: Capture iOS device logs on hosted simulators and report unsupported mobile settings before starting a device.
+
 ## 1.43.0
 
 ### Minor Changes
