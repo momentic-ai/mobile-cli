@@ -1,5 +1,23 @@
 # momentic-mobile
 
+## 1.44.0
+
+### Minor Changes
+
+- a34b4db: Add quarantine add, list, and remove commands for mobile tests.
+
+### Patch Changes
+
+- e34629e: Handle viewer port conflicts, missing app downloads and prompt cancellation, recognize argument errors from duplicate CLI parser installations, stop commands after an upgrade, and keep browser-launch failures recoverable.
+- d235503: Keep editor folder operations inside the selected project.
+- 8aca88b: Explain certificate and connection failures during authentication and mobile asset upload, provide clearer guidance for invalid server authentication responses, and avoid retrying failed certificate checks. Improve download reliability after temporary connection failures.
+- 40c1a4b: Hide fullscreen controls when unavailable and prevent replay errors from interrupting recordings.
+- 312b6ab: Explain invalid module and test input and prevent nesting mobile modules.
+- ba06731: Support custom servers without an app UI in sign-in information, local run summaries, and result uploads.
+- 6598aaa: Share CLI command registration, startup handlers, error catalogs and npm upgrade orchestration without changing command behavior.
+- f00770d: Improve Android test execution speed on native screens
+- da1212b: Explain when iOS drag targets resolve to the same location.
+
 ## 1.43.1
 
 ### Patch Changes
