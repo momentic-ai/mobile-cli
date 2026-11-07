@@ -1,5 +1,18 @@
 # momentic-mobile
 
+## 1.45.0
+
+### Minor Changes
+
+- c8ba40c: Add a SET_LOCATION step to change device GPS coordinates during iOS and Android tests.
+
+### Patch Changes
+
+- cec6c70: Report a clear error for iOS Photos destination filenames containing spaces.
+- 884c89c: Remove run listing, quarantine listing and docs search from the local MCP servers; use the hosted Momentic MCP at https://mcp.momentic.ai for these tools.
+- de63aeb: Stop bundling the `momentic-triage-quarantined-tests` skill; `momentic-maintain` now covers quarantine triage.
+- 5b304fc: Show a clear error when a mobile device session reaches its time limit.
+
 ## 1.44.0
 
 ### Minor Changes
