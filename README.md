@@ -1,6 +1,6 @@
 # momentic-mobile
 
-![](https://img.shields.io/badge/Node.js-20%2B-brightgreen?style=flat-square)
+![](<https://img.shields.io/badge/Node.js-22.12%2B%20(22.x)%20or%2024%2B-brightgreen?style=flat-square>)
 [![npm]](https://www.npmjs.com/package/momentic-mobile)
 
 [npm]: https://img.shields.io/npm/v/momentic-mobile.svg?style=flat-square
@@ -10,9 +10,20 @@ your end-to-end tests - all through natural language prompts.
 
 **Learn more in the [official documentation](https://momentic.ai/docs)**.
 
-Using a coding agent? `momentic-mobile skills` installs the Momentic Mobile CLI
-skills and adds a short pointer block to the agent's instructions file.
-Rerunning it updates only that block.
+Using a coding agent? `npx momentic-mobile skills --target claude-code` installs
+`momentic-test`, `momentic-maintain`, and `momentic-spec` for web and mobile.
+The web CLI installs the same bundle. Rerunning the command refreshes the skill
+files and updates its pointer block in the agent's instructions. Use your
+agent's target in place of `claude-code`.
+
+If you use both `momentic` and `momentic-mobile`, upgrade both CLIs together.
+Old releases can restore split skills; rerun `skills` with either upgraded CLI
+to repair the installation.
+
+Run `npx momentic-mobile install-mcp --client claude-code` to register local
+`momentic-mobile` and hosted `momentic-hosted`. In Claude Code, use either the
+Momentic plugin or `install-mcp`, not both. See
+[coding agent setup](https://momentic.ai/docs/coding-agents/skills).
 
 ## Get Started
 
@@ -45,9 +56,8 @@ We welcome your feedback. Ping us in Slack, or file a
 ## System Requirements
 
 - Node.js:
-  - Node 20: 20.19.0 or later
   - Node 22: 22.12.0 or later
-  - Node 24: 24.0.0 or later
+  - Node 24 or later
 - Windows 10+, Windows Server 2016+, or Windows Subsystem for Linux (WSL).
 - macOS 13 Ventura, or macOS 14 Sonoma.
 - Debian 11, Debian 12, Ubuntu 20.04 or Ubuntu 22.04, Ubuntu 24.04, on x86-64
