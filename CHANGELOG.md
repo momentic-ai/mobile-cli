@@ -1,5 +1,45 @@
 # momentic-mobile
 
+## 1.46.0
+
+### Minor Changes
+
+- 5216d6d: Support failing execution when clearing content fails.
+- 5066490: Local environments can load their base URL and variables from a Momentic cloud environment at run time, so tests run in CI without copying environment values into the repository.
+
+### Patch Changes
+
+- c5e6db2: Resolve mixed-product workspaces to the matching project, identify empty mobile projects, and preserve HTTPS in tunnel instructions.
+
+  Keep MCP diagnostics connected when a pinned config is missing, and version skill bundles using their product's references.
+
+- c5e6db2: Add `init --config-only` for projects whose plugin already provides skills and MCP servers. The default initialization behavior is unchanged.
+- c5e6db2: Use shared web/mobile pointers to rediscover installed skill targets. Keep ownership separate from whether the installed content is current.
+- c5e6db2: Recognize requests for a test plan or specification from a feature description in the specification skill.
+- 892e1ca: Local iOS runs now pick a simulator runtime that supports the requested device type, so a device-specific runtime sharing the same iOS version no longer breaks simulator creation.
+- 2cdced0: Local iOS runs no longer fail during setup when a newly created simulator needs more than 30 seconds to start its test agent.
+- c5e6db2: Clarify app launch, module inputs, text replacement, test IDs, and mobile MCP troubleshooting in bundled skills.
+- c5e6db2: Rediscover installed targets through shared web/mobile ownership while keeping Mo installations separate.
+- 550ee31: Fix Android text entry for Hindi, accented characters, and emoji.
+- c5e6db2: Keep local MCP servers connected when the combined plugin starts them outside a matching project. Tool calls explain which project is missing without authenticating or starting a browser or device.
+- c5e6db2: Keep local MCP servers connected when credentials are missing and return sign-in instructions from tools. Treat unexpanded API-key environment placeholders as unset so a saved sign-in still works. Forward Cursor API keys and Codex mobile SDK settings when installing MCP servers.
+- c5e6db2: Report a failed generic WebSocket probe as a warning. Session-specific endpoints can still work when this probe fails.
+- c5e6db2: Resolve run-group links to run IDs before inspecting failures with the maintenance skill.
+- c5e6db2: Select the running coding agent during setup rather than preselecting Devin from installation directories. Keep installed-client detection for terminal sessions outside an agent.
+- 5d36a54: Explain missing mobile app builds before installation starts.
+- 0abc89b: Fix AI steps hanging for up to a minute when the model ends a response early.
+- c5e6db2: Clarify editor setup, MCP connections,
+  and the next step after installing skills.
+- e2d5859: Register the hosted Momentic MCP server alongside the local server during coding-agent setup, or show connector instructions for Claude Desktop. Sign in to the hosted server on first use.
+
+  Reinstalling keeps your existing launcher; passing `--config` rewrites it with the default command and new config path, dropping version pins and custom arguments. Preserve local settings and API keys, and update recognized hosted connections under their existing names.
+
+- c5e6db2: Ship the same browser, Android, and iOS skills from both CLIs. Update shared installations and pointers, remove retired skills, and reject older bundles without overwriting newer installed skills.
+
+  Repair mixed installations left by old CLIs, retire their generated mobile Cursor pointer, and warn about unmanaged retired skills. Require changesets for both CLIs when shared skills change and for qa when mo-qa changes.
+
+  Simplify bundled skills and clarify Mo replies, follow deadlines, credentials, messaging, and cleanup.
+
 ## 1.45.1
 
 ### Patch Changes
