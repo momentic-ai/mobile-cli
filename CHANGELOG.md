@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.46.1
+
+### Patch Changes
+
+- e3ccce1: Add mobile build management to qa using shared upload, listing, download, and deletion logic with momentic-mobile, and verify uploads before reporting success.
+- 3181f1a: Make mobile AI actions behave consistently with browser AI actions.
+- fac78b8: Overlap mobile step and snapshot cache saves to reduce test closeout time.
+- 061576e: Overlap cache requests to reduce test startup time.
+- cdcb7e0: Start local MCP sessions faster by preparing the step guide, test content and initial screenshot in parallel, and skip a duplicate org settings request when `momentic mcp` starts.
+
 ## 1.46.0
 
 ### Minor Changes
