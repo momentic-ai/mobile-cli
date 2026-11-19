@@ -1,5 +1,40 @@
 # momentic-mobile
 
+## 1.47.0
+
+### Minor Changes
+
+- 9c51d68: Check uploaded mobile builds with qa doctor and momentic-mobile doctor before starting a session.
+- c926928: Improve AI extraction accuracy on Android and iOS.
+- c0b52d2: Add disable_network and enable_network mobile steps that restore the device's previous network settings.
+
+### Patch Changes
+
+- 1b4995b: Stop listing iOS device .ipa files in asset upload help and errors.
+- 44f1759: Install uploaded Android and iOS builds on an active AWS Device Farm session.
+- c9c30bf: Make mobile AI actions more reliable when extracting every row from a long scrollable list.
+- adca5c6: On Android devices with shell access, Open App asks you to set `activityName` when the app has multiple launchers and Android has no default.
+- fdafdbf: Report invalid iOS simulator builds as configuration errors instead of emulator startup failures, without retrying setup.
+- d65cba0: Report unsupported locale and OS selections before reserving a physical device for a test.
+- 1ab669e: Expose the user-approved feedback MCP tool in the mobile CLI.
+- 4a6a9a1: Security patches.
+- 9ee85f0: The MCP server now tells your coding agent when it can't reach Momentic, instead of failing to start.
+- 64a6fa1: Fix Android Open App for apps with multiple launcher activities.
+- f62d3f0: Say how many attempts failed when the Momentic server can't be reached during the authentication check.
+- 49feb63: List installed Android apps on AWS Device Farm.
+- 5685377: Fix installed app listing and Wi-Fi toggles on hosted Android devices, and report when a connectivity change does not take effect.
+- 63e950d: Correct module input and preview guidance. Clarify failure diagnosis,
+  end-to-end checkpoints, and QA scope and spending safeguards.
+- b397adf: Allow slow Android and iOS Appium installs to use the full installation timeout.
+- 4d7f1f2: Fix opening Android apps by package name in hosted test runs.
+- 4c31528: Stop sending more text when Android typing is interrupted, and clarify in the timeout error that the device may still be entering text.
+- 66ad423: Accept quoted string inputs that match a module parameter's enum when an agent adds a module step.
+- d8f9a4b: Launch installer-configured hosted MCP through qa mcp with the shared CLI login. Plugin connections keep OAuth by default and offer the CLI bridge as an opt-in.
+- d8f9a4b: Treat an empty MOMENTIC_API_KEY like an unset one so a saved `momentic login` still works, and show Claude Code plugin users where to set the API key for local MCP servers.
+  MCP tools declare read-only and destructive annotations, so Codex runs read-only tools without approval.
+- 9f74144: Improve screenshot capture speed
+- 895c512: Update the backup model for mobile AI actions.
+
 ## 1.46.1
 
 ### Patch Changes
