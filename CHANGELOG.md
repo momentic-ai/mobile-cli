@@ -1,5 +1,16 @@
 # momentic-mobile
 
+## 1.47.1
+
+### Patch Changes
+
+- 74a39e9: Fix GPS overrides on hosted Android and iOS devices.
+- 5bf0e18: Local iOS runs whose simulator test agent fails to start now report a configuration error with troubleshooting steps.
+- 0c874d9: Update the backup model mobile AI actions fall back to when the primary model is unavailable.
+- 8e90b5c: Improve how mobile AI actions decide what to do and understand the effects of their actions.
+- 3a783a8: Clean up hosted mobile devices sooner after the client exits unexpectedly and keep idle editor sessions connected.
+- a8facad: Bound automatic mobile test parallelism by the runner CPU capacity.
+
 ## 1.47.0
 
 ### Minor Changes
