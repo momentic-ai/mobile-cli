@@ -1,5 +1,13 @@
 # momentic-mobile
 
+## 1.47.2
+
+### Patch Changes
+
+- ab68801: AI actions now grade their final state against their goal with a better understanding of their trajectory
+- 7ae0a82: Improve the latency of run assertions.
+- 64f8c26: Cancelled mobile AI actions now stop instead of continuing and failing with "AI action did not produce a final state".
+
 ## 1.47.1
 
 ### Patch Changes
