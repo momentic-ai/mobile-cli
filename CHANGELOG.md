@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.47.3
+
+### Patch Changes
+
+- 6eafa46: Improve how AI actions review long runs against their goal.
+
 ## 1.47.2
 
 ### Patch Changes
