@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.47.4
+
+### Patch Changes
+
+- 9aab670: Make the goal reviewer's reasoning level consistent with the runner configuration.
+
 ## 1.47.3
 
 ### Patch Changes
