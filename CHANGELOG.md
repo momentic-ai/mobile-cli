@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.47.5
+
+### Patch Changes
+
+- 90ca3b1: Security patches.
+
 ## 1.47.4
 
 ### Patch Changes
