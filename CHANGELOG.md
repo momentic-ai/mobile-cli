@@ -1,5 +1,15 @@
 # momentic-mobile
 
+## 1.48.0
+
+### Minor Changes
+
+- 3414561: Support setCamera and clearCamera on hosted Android 15+ emulators
+
+### Patch Changes
+
+- 6fdfa5d: Send request step parameters correctly when the URL already has a query string or fragment.
+
 ## 1.47.5
 
 ### Patch Changes
