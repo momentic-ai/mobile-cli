@@ -1,5 +1,12 @@
 # momentic-mobile
 
+## 1.48.1
+
+### Patch Changes
+
+- 97ae6a1: Support iOS 18 on hosted simulators in the us-west2 region.
+- 89b0dcd: Recover sooner when an AI model connection stops responding.
+
 ## 1.48.0
 
 ### Minor Changes
