@@ -1,5 +1,17 @@
 # momentic-mobile
 
+## 1.48.2
+
+### Patch Changes
+
+- 9d22b66: Agents can submit concise issue and optional suggested-fix feedback without
+  asking the user to approve it. The change also adds an optional agentObservation
+  to existing in-task Mo triage actions. Caller guidance asks agents to omit
+  unknown observations and private details. Deploy API support before CLI clients
+  send observations; clients that omit the field remain compatible with older
+  servers.
+- 25ff611: Fix opening Android apps by package name on Expo devices.
+
 ## 1.48.1
 
 ### Patch Changes
