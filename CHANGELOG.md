@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.48.3
+
+### Patch Changes
+
+- 8e14548: Fix reading and interacting with embedded mobile web content.
+
 ## 1.48.2
 
 ### Patch Changes
