@@ -1,5 +1,11 @@
 # momentic-mobile
 
+## 1.48.4
+
+### Patch Changes
+
+- f8a241d: Keep mobile MCP daemon reuse scoped to the requested display mode.
+
 ## 1.48.3
 
 ### Patch Changes
